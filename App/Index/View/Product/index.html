@@ -1,0 +1,93 @@
+<include file="Common:header"/>
+<link rel="stylesheet" href="__CSS__/productCenter.css">
+<div class="wrap">
+	<div class="pro-nav">
+		<!-- <if condition="$_GET['num_id'] == $products['0']['num_id']"> -->
+		<foreach name="product_cate" item="v">
+			<div class="nav" value="{$v.id}">{$v.name}</div>
+		</foreach>
+	</div>
+	<div class="category-list-wrap">
+		<ul class="category-list clear">
+				<foreach name='products' item='v'>
+					<li>
+						<div class="category-img">
+							<img src="{$v.pic}" style="width: 150px;height: 150px;" />
+						</div>
+						<p class="ell goodTitle">{$v.name}</p>
+						<div style="text-align: right;margin-top: 10px;">
+							<a href="{:U('Product/details', ['id' => $v['id']])}" target="_self"><button class="comm goBtn">领取</button></a>
+						</div>
+					</li>
+				</foreach>
+		</ul>
+	</div>
+</div>
+		
+<script>
+	$('.nav').click(function(){
+		$(this).addClass("nav active");
+		$(this).siblings('.nav').removeClass("active")
+		var senddata = "pro_cateid=" + $(this).attr('value') + "&num_id=" + "{$_GET['num_id']}";
+		getProducts(senddata);
+	});
+
+	function getProducts(senddata){
+		$.ajax({
+			url: '/Index/Product/index',
+			type: 'POST',
+			dataType: 'json',
+			data: senddata,//数据，这里使用的是Json格式进行传输
+			success: function(data){
+				console.log(data);
+				if (data.code == 1) {
+					var html = getProductHtml(data.data);
+					$('.category-list').html(html);
+				}else{
+					$('.category-list').html("<div style='text-align:center; font-size:18px;'>" + data.msg + "</div>");
+					// layer.open({
+					//     content: data.msg,
+					//     skin: 'msg',
+					//     time: 2    //2秒后自动关闭
+					// });
+				}
+			},
+			error: function(){
+				// alert('请求错误');
+				// layer.open({
+				//     content: '请求错误',
+				//     skin: 'msg',
+				//     time: 2    //2秒后自动关闭
+				// });
+			}
+		});
+	};
+	function getProductHtml(data){
+		var html = '';
+		var res;
+		for (var k in data) {
+			res   = data[k];
+			html += "<li>";
+			html += "<div class='category-img'>";
+			html += "<img src='" + res.pic + "' style='width: 150px;height: 150px;' />";
+			html += "</div>";
+			html += "<p class='ell goodTitle'>" + res.name + "</p>";
+			html += "<div style='text-align: right;margin-top: 10px;'>";
+			html += "<a href='/Index/Product/details?id='" + res.id + "' target='_self'><button class='comm goBtn'>领取</button></a>";
+			html += "</div>";
+			html += "</li>";
+		}
+		return html;
+	}
+
+	// $("#series1").click(function(){
+	// 	$(this).addClass("nav active");
+	// 	$("#series2").removeClass("active")
+	// });
+	// $("#series2").click(function(){
+	// 	$(this).addClass("nav active");
+	// 	$("#series1").removeClass("active")
+	// })
+</script>
+<!-- 底部包含 -->
+<include file="Common:footer"/>

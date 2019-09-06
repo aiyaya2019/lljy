@@ -1,0 +1,96 @@
+<include file="Common:header"/>
+<script type="text/javascript" src="__PLUG__/clipboard/clipboard.min.js"></script> 
+<style type="text/css">
+	.one{display: block; width: 30px; cursor: pointer; text-align: center; height: 20px; line-height: 18px; background: #d2322d;color: #fff;float: right;}
+	.two{display: block; width: 30px; cursor: pointer; text-align: center; height: 20px; line-height: 18px; background: #337ab7;color: #fff;float: right;}
+	.sbn{display: block; width: 30px; text-align: center; height: 20px; line-height: 18px;float: right;}
+	.noshow{display: none;}
+	.noshow1{display: none;}
+	.copbtn{padding: 3px 10px;background: red; border-radius: 3px;color: #fff;position: relative;left: 10px;cursor: pointer;}
+    .table_red{color: #fff;background-color: #d9534f;border-color: #d74b47;}
+</style>
+<div class="main_box">
+	<h2><span></span>链接管理</h2>
+	<form action="#">
+		<div class="search_box clearfix">
+			<select name="type">
+				<option value="0">---所属对象---</option>
+				<option value="1" <if condition="$_GET['type'] eq 1"> selected </if> >微信公众号</option>
+				<option value="2" <if condition="$_GET['type'] eq 2"> selected </if> >微信小程序</option>
+			</select>
+			<input type="text" class="f_left" value="{$_GET['keywords']}" name="keywords" placeholder="输入链接名称">
+			<input type="submit" value="查询" class="btn blue_btn">
+			<button type="button" link="{:U('Base/url_edit')}" onclick="link(this)" class="btn blue_btn">添 加</button>
+		</div>
+	</form>
+	<div class="cont_box">
+		<table border="0" cellspacing="0" cellpadding="0" class="table" id="table_box">
+			<tr>
+				<th>序号</th>
+				<th>链接名称</th>
+				<th>链接</th>
+				<th>所属对象</th>
+				<th>操 作</th>
+			</tr>
+			<if condition="$data">
+			    <foreach name='data' item = 'v'>
+					<tr>
+						<td>{$v.id}</td>
+						<td>{$v.name}</td>
+						<td>
+							<if condition="$v['type'] eq 1">
+								{$_SERVER['REQUEST_SCHEME']}://{$_SERVER['SERVER_NAME']}{$v.url}
+							    <span class="copbtn" data-clipboard-text="{$_SERVER['REQUEST_SCHEME']}://{$_SERVER['SERVER_NAME']}{$v.url}">复制</span>
+						    <else/>
+							    {$v.url}
+							    <span class="copbtn" data-clipboard-text="{$v.url}">复制</span>
+							</if>
+						</td>
+						<td>
+						   <if condition="$v['type'] eq 1">
+						      <a class="table_red table_btn">微信公众号</a>
+						   <elseif condition="$v['type'] eq 2"/>
+						      <a class="table_edit table_btn">微信小程序</a>
+						   </if>
+						</td>
+						<td>
+						    <a href="{:U('Base/url_edit',array('id'=>$v['id']))}" class="table_btn table_edit edit_btn">
+								<i class="fa fa-edit"></i>
+								<span>编辑</span>
+							</a>
+							<a link="{:U('Base/url_delete')}" key="{$v.id}" class="table_btn table_del del_btn">
+								<i class="fa fa-trash-o"></i>
+								<span>删除</span>
+							</a>
+						</td>
+					</tr>
+				</foreach>
+				<tr style="height: 60px;">
+					<td colspan="9" style="text-align:center">
+					    <div class="page">{$page}</div>
+					</td>
+				</tr>
+			<else/>
+			    <tr class="nocontent">
+					<td colspan="5">世界都清静了...</td>
+				</tr>
+			</if>
+	    </table>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+	    var clipboard = new Clipboard('.copbtn');
+        clipboard.on('success', function (e){
+            layer.alert('复制成功,请在微信端打开',{icon: 1});
+        });
+        clipboard.on('error', function (e) {
+            layer.alert('复制失败,请选中手动复制',{icon: 5});
+        });
+		$("select[name=type]").change(function(){
+		    var type = $(this).val();
+			window.location.href="?type="+type;
+		})
+	})
+</script>
+<include file="Common:footer"/>

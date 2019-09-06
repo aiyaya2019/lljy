@@ -1,0 +1,2424 @@
+[ 2019-01-30T09:38:28+08:00 ] 14.24.154.221 /Api/Common/getBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812308 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T09:38:28+08:00 ] 14.24.154.221 /Api/Index/getIndexColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812308 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-30T09:38:28+08:00 ] 14.24.154.221 /Api/News/newsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812308 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T09:38:29+08:00 ] 14.24.154.221 /Api/Index/getBrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812309 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_brand` WHERE `status` = 0 AND `is_red` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T09:38:29+08:00 ] 14.24.154.221 /Api/Index/getIndexProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812309 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T09:38:29+08:00 ] 14.24.154.221 /Api/Index/isMembersGetCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0156s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812309 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status`,`welfare_name`,`coupon_id` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 20 AND `from` LIKE '%新人领取%' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T09:38:29+08:00 ] 14.24.154.221 /Api/Mall/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812309 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 25 行.
+NOTIC: [8] Undefined index: brand_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 40 行.
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 45 行.
+NOTIC: [8] Undefined index: goods_cate_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 50 行.
+NOTIC: [8] Undefined index: sort E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: order E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 60 行.
+SQL: SELECT `id`,`name`,`title`,`pic`,`many_pic`,`create_time`,`status`,`sort`,`goods_cate_id`,`is_red`,`price`,`old_price`,`save_num`,`brand_id`,`sale`,`goods_code`,`month_sale_num`,`update_time`,`wx_code`,`freight_type`,`freight_value` FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T09:38:29+08:00 ] 14.24.154.221 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812309 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T09:38:29+08:00 ] 14.24.154.221 /Api/Index/getIndexAdv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812309 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T09:38:29+08:00 ] 14.24.154.221 /Api/Index/getTopNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548812309 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:56+08:00 ] 58.247.206.149 /Api/Index/getIndexAdv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824276 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:56+08:00 ] 58.247.206.149 /Api/Index/getIndexColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824276 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:56+08:00 ] 58.247.206.144 /Api/Index/getBrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824276 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_brand` WHERE `status` = 0 AND `is_red` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:56+08:00 ] 58.247.206.145 /Api/News/newsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824276 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:57+08:00 ] 58.247.206.154 /Api/Index/isMembersGetCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824276 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: members_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\IndexController.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:57+08:00 ] 58.247.206.144 /Api/Mall/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824277 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 25 行.
+NOTIC: [8] Undefined index: brand_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 40 行.
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 45 行.
+NOTIC: [8] Undefined index: goods_cate_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 50 行.
+NOTIC: [8] Undefined index: sort E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: order E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 60 行.
+SQL: SELECT `id`,`name`,`title`,`pic`,`many_pic`,`create_time`,`status`,`sort`,`goods_cate_id`,`is_red`,`price`,`old_price`,`save_num`,`brand_id`,`sale`,`goods_code`,`month_sale_num`,`update_time`,`wx_code`,`freight_type`,`freight_value` FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:57+08:00 ] 58.247.206.149 /Api/Index/getTopNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824277 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:57+08:00 ] 58.247.206.156 /Api/Index/getIndexProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824277 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:57+08:00 ] 58.247.206.149 /Api/Common/getBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824277 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:58+08:00 ] 58.247.206.154 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824278 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:58+08:00 ] 58.247.206.154 /Api/WechatApi/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824277 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: key E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\WechatApiController.class.php 第 8 行.
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 132 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:57:58+08:00 ] 58.247.206.144 /Api/Members/addMembers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824278 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `openid` = 'oKuqO4jhxRXQYnvW5HxVKbRX36_8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userphone E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MembersController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MembersController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:01+08:00 ] 58.247.206.154 /Api/Index/getBuyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824280 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`members_id`,`ordercode`,`status` FROM `tbkl_mall_order` WHERE ( status!=0 and status!=5 ) ORDER BY id desc LIMIT 50   [ RunTime:0.0000s ]
+SQL: SELECT `nickname`,`headimgurl` FROM `tbkl_members` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-30T12:58:04+08:00 ] 58.247.206.144 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824284 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:04+08:00 ] 58.247.206.149 /Api/Common/getBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824284 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:04+08:00 ] 58.247.206.154 /Api/Index/getTopNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824284 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:05+08:00 ] 58.247.206.139 /Api/Mall/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824284 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 25 行.
+NOTIC: [8] Undefined index: brand_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 40 行.
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 45 行.
+NOTIC: [8] Undefined index: goods_cate_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 50 行.
+NOTIC: [8] Undefined index: sort E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: order E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 60 行.
+SQL: SELECT `id`,`name`,`title`,`pic`,`many_pic`,`create_time`,`status`,`sort`,`goods_cate_id`,`is_red`,`price`,`old_price`,`save_num`,`brand_id`,`sale`,`goods_code`,`month_sale_num`,`update_time`,`wx_code`,`freight_type`,`freight_value` FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-30T12:58:05+08:00 ] 58.247.206.139 /Api/Index/getIndexProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824285 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:05+08:00 ] 58.247.206.144 /Api/Index/getIndexAdv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824285 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:05+08:00 ] 58.247.206.154 /Api/Index/getIndexColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824285 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:05+08:00 ] 58.247.206.154 /Api/Index/getBrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0156s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824285 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_brand` WHERE `status` = 0 AND `is_red` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:05+08:00 ] 58.247.206.152 /Api/News/newsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824285 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-30T12:58:05+08:00 ] 58.247.206.149 /Api/Index/isMembersGetCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824285 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status`,`welfare_name`,`coupon_id` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 33 AND `from` LIKE '%新人领取%' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0000s ]
+SQL: SELECT `price` FROM `tbkl_coupon` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:05+08:00 ] 58.247.206.139 /Api/Index/getBuyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824285 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`members_id`,`ordercode`,`status` FROM `tbkl_mall_order` WHERE ( status!=0 and status!=5 ) ORDER BY id desc LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T12:58:10+08:00 ] 58.247.206.144 /Api/Index/getBuyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548824290 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`members_id`,`ordercode`,`status` FROM `tbkl_mall_order` WHERE ( status!=0 and status!=5 ) ORDER BY id desc LIMIT 50   [ RunTime:0.0000s ]
+SQL: SELECT `nickname`,`headimgurl` FROM `tbkl_members` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Index/getTopNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847094 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Index/isMembersGetCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status`,`welfare_name`,`coupon_id` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `from` LIKE '%新人领取%' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0000s ]
+SQL: SELECT `price` FROM `tbkl_coupon` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Mall/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 25 行.
+NOTIC: [8] Undefined index: brand_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 40 行.
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 45 行.
+NOTIC: [8] Undefined index: goods_cate_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 50 行.
+NOTIC: [8] Undefined index: sort E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: order E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 60 行.
+SQL: SELECT `id`,`name`,`title`,`pic`,`many_pic`,`create_time`,`status`,`sort`,`goods_cate_id`,`is_red`,`price`,`old_price`,`save_num`,`brand_id`,`sale`,`goods_code`,`month_sale_num`,`update_time`,`wx_code`,`freight_type`,`freight_value` FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Index/getIndexColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Index/getBrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_brand` WHERE `status` = 0 AND `is_red` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Index/getIndexProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Index/getIndexAdv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/Common/getBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:15+08:00 ] 183.37.168.239 /Api/News/newsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847095 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:19+08:00 ] 183.37.168.239 /Api/Index/getBuyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847099 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`members_id`,`ordercode`,`status` FROM `tbkl_mall_order` WHERE ( status!=0 and status!=5 ) ORDER BY id desc LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:23+08:00 ] 183.37.168.239 /Api/Mall/getCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847103 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_coupon` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 132 行.
+SQL: INSERT INTO `tbkl_get_coupon` (`price`,`full_price`,`end_time`,`get_time`,`members_id`,`coupon_id`,`name`,`coupon_code`,`ip`,`from`) VALUES ('10','200','1548933503','1548847103','58','3','10元优惠券','763m18nk','183.37.168.239','新人领取') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:24+08:00 ] 183.37.168.239 /Api/Index/getBuyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847104 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`members_id`,`ordercode`,`status` FROM `tbkl_mall_order` WHERE ( status!=0 and status!=5 ) ORDER BY id desc LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:29+08:00 ] 183.37.168.239 /Api/Index/getBuyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847109 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`members_id`,`ordercode`,`status` FROM `tbkl_mall_order` WHERE ( status!=0 and status!=5 ) ORDER BY id desc LIMIT 50   [ RunTime:0.0000s ]
+SQL: SELECT `nickname`,`headimgurl` FROM `tbkl_members` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:33+08:00 ] 183.37.168.239 /Api/Mall/coupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847113 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_coupon` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:36+08:00 ] 183.37.168.239 /Api/Mall/getCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0156s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847116 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: from E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 449 行.
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_coupon` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 132 行.
+SQL: INSERT INTO `tbkl_get_coupon` (`price`,`full_price`,`end_time`,`get_time`,`members_id`,`coupon_id`,`name`,`coupon_code`,`ip`,`from`) VALUES ('5','100','1549019916','1548847116','58','4','5元优惠券','5o3y911k','183.37.168.239',NULL) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:37+08:00 ] 183.37.168.239 /Api/Mall/coupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847117 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_coupon` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:41+08:00 ] 183.37.168.239 /Api/Mall/getCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847121 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: from E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 449 行.
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_coupon` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 132 行.
+SQL: INSERT INTO `tbkl_get_coupon` (`price`,`full_price`,`end_time`,`get_time`,`members_id`,`coupon_id`,`name`,`coupon_code`,`ip`,`from`) VALUES ('2','30','1549279121','1548847121','58','5','2元优惠券','3kihr009','183.37.168.239',NULL) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:41+08:00 ] 183.37.168.239 /Api/Mall/coupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847121 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_coupon` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:42+08:00 ] 183.37.168.239 /Api/Mall/getCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847122 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: from E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 449 行.
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:42+08:00 ] 183.37.168.239 /Api/Mall/coupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847122 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_coupon` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_coupon` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `status` = 0 AND `coupon_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:47+08:00 ] 183.37.168.239 /Api/Members/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847127 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_collect` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news_search` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news_search` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_agent` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:50+08:00 ] 183.37.168.239 /Api/Members/getPackage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847130 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_money_package` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_money_package` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:50+08:00 ] 183.37.168.239 /Api/Members/getMembersInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847130 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:50+08:00 ] 183.37.168.239 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847130 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `money_msg` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:18:53+08:00 ] 183.37.168.239 /Api/Members/getRechangPay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847132 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: money E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MembersController.class.php 第 584 行.
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tbkl_money_package` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_money_package` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `openid` FROM `tbkl_members` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 125 行.
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 125 行.
+NOTIC: [8] Undefined variable: curl E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 248 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: curl E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 249 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 249 行.
+NOTIC: [8] Undefined variable: curl E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 256 行.
+NOTIC: [2] curl_close() expects parameter 1 to be resource, null given E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 256 行.
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 125 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T19:19:07+08:00 ] 183.37.168.239 /Api/Members/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548847147 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_collect` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tbkl_news_search` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news_search` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_agent` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/Index/getTopNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/Index/getIndexProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/Index/getIndexAdv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/Mall/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 25 行.
+NOTIC: [8] Undefined index: brand_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 40 行.
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 45 行.
+NOTIC: [8] Undefined index: goods_cate_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 50 行.
+NOTIC: [8] Undefined index: sort E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: order E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 60 行.
+SQL: SELECT `id`,`name`,`title`,`pic`,`many_pic`,`create_time`,`status`,`sort`,`goods_cate_id`,`is_red`,`price`,`old_price`,`save_num`,`brand_id`,`sale`,`goods_code`,`month_sale_num`,`update_time`,`wx_code`,`freight_type`,`freight_value` FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/Index/getIndexColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/News/newsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/Index/getBrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_brand` WHERE `status` = 0 AND `is_red` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:01+08:00 ] 183.37.168.239 /Api/Index/isMembersGetCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853801 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status`,`welfare_name`,`coupon_id` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `from` LIKE '%新人领取%' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:02+08:00 ] 183.37.168.239 /Api/Common/getBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853802 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Common/getBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Index/getTopNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Mall/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 25 行.
+NOTIC: [8] Undefined index: brand_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 40 行.
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 45 行.
+NOTIC: [8] Undefined index: goods_cate_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 50 行.
+NOTIC: [8] Undefined index: sort E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: order E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 60 行.
+SQL: SELECT `id`,`name`,`title`,`pic`,`many_pic`,`create_time`,`status`,`sort`,`goods_cate_id`,`is_red`,`price`,`old_price`,`save_num`,`brand_id`,`sale`,`goods_code`,`month_sale_num`,`update_time`,`wx_code`,`freight_type`,`freight_value` FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Index/getIndexProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Index/getIndexColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Index/getIndexAdv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Index/getBrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_brand` WHERE `status` = 0 AND `is_red` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/News/newsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Index/isMembersGetCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status`,`welfare_name`,`coupon_id` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `from` LIKE '%新人领取%' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-30T21:10:06+08:00 ] 183.37.168.239 /Api/Index/getBuyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853806 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`members_id`,`ordercode`,`status` FROM `tbkl_mall_order` WHERE ( status!=0 and status!=5 ) ORDER BY id desc LIMIT 50   [ RunTime:0.0000s ]
+SQL: SELECT `nickname`,`headimgurl` FROM `tbkl_members` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:08+08:00 ] 183.37.168.239 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853808 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:09+08:00 ] 183.37.168.239 /Api/Index/getTopNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853809 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:09+08:00 ] 183.37.168.239 /Api/Common/getBanner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853809 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:09+08:00 ] 183.37.168.239 /Api/Index/getIndexProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853809 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:09+08:00 ] 183.37.168.239 /Api/Mall/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853809 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 25 行.
+NOTIC: [8] Undefined index: brand_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 40 行.
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 45 行.
+NOTIC: [8] Undefined index: goods_cate_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 50 行.
+NOTIC: [8] Undefined index: sort E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: order E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MallController.class.php 第 60 行.
+SQL: SELECT `id`,`name`,`title`,`pic`,`many_pic`,`create_time`,`status`,`sort`,`goods_cate_id`,`is_red`,`price`,`old_price`,`save_num`,`brand_id`,`sale`,`goods_code`,`month_sale_num`,`update_time`,`wx_code`,`freight_type`,`freight_value` FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:09+08:00 ] 183.37.168.239 /Api/Index/getIndexAdv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853809 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:09+08:00 ] 183.37.168.239 /Api/News/newsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853809 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:09+08:00 ] 183.37.168.239 /Api/Index/getBrand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853809 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_brand` WHERE `status` = 0 AND `is_red` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:09+08:00 ] 183.37.168.239 /Api/Index/isMembersGetCoupon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853809 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status`,`welfare_name`,`coupon_id` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_get_coupon` WHERE `members_id` = 58 AND `from` LIKE '%新人领取%' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:10+08:00 ] 183.37.168.239 /Api/Index/getIndexColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853810 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:11+08:00 ] 183.37.168.239 /Api/Index/getBuyList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853811 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`members_id`,`ordercode`,`status` FROM `tbkl_mall_order` WHERE ( status!=0 and status!=5 ) ORDER BY id desc LIMIT 50   [ RunTime:0.0000s ]
+SQL: SELECT `nickname`,`headimgurl` FROM `tbkl_members` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:13+08:00 ] 183.37.168.239 /Api/Members/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853813 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_collect` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news_search` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news_search` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_agent` WHERE `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 AND `members_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:17+08:00 ] 183.37.168.239 /Api/Members/getMembersInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853817 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:17+08:00 ] 183.37.168.239 /Api/Common/getConfig
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853817 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 341 行.
+SQL: SELECT `money_msg` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:17+08:00 ] 183.37.168.239 /Api/Members/getPackage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853817 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_money_package` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_money_package` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-30T21:10:28+08:00 ] 183.37.168.239 /Api/Members/getRechangPay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1548853828 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: package_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\MembersController.class.php 第 582 行.
+SQL: SELECT `openid` FROM `tbkl_members` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 125 行.
+NOTIC: [8] Undefined offset: 1 E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 19 行.
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 125 行.
+NOTIC: [8] Undefined variable: curl E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 248 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 248 行.
+NOTIC: [8] Undefined variable: curl E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 249 行.
+NOTIC: [2] curl_setopt() expects parameter 1 to be resource, null given E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 249 行.
+NOTIC: [8] Undefined variable: curl E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 256 行.
+NOTIC: [2] curl_close() expects parameter 1 to be resource, null given E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Api\Controller\CommonController.class.php 第 256 行.
+NOTIC: [8] Undefined variable: s E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Common\Common\function.php 第 125 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

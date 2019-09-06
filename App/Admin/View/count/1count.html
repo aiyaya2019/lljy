@@ -1,0 +1,282 @@
+<!-- {extend name="layout" /}
+
+{block name="page-header"}{/block}
+
+{block name="content"}
+  -->
+<!-- 内容一 -->
+
+
+<css file="__CSS__/bootstrap.min.css"/>
+
+        <css file="__CSS__/fontsawesome/css/font-awesome.css"/>
+<css file="__CSS__/oneui.css"/>
+<css file="__CSS__/count.css"/>
+<style>
+    .tab-head {
+        position: relative;
+    }
+    .tab-head .dataTimeBox1, .tab-head .dataTimeBox2 {
+        padding: 5px 12px;
+        border-radius: 4px;
+        border: none;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .CompanyDeptReadonlybg {
+        background-color: #fff !important;
+    }
+</style>
+
+<div class="row">
+    <div class="col-sm-6 col-md-3" id="content-box">
+        <!-- 搜索框 -->
+        <div class="form-box">
+            <div class="time-box">
+                <input class="input-box" name="start_time" value="<?php echo date('Y-m-d', strtotime('-7 days'));?>" onClick="laydate({istime: true,format: 'YYYY-MM-DD'})" />
+                <span class="jiantou"><i class="fa fa-chevron-right"></i></span>
+                <input class="input-box" name="end_time"  value="<?php echo date('Y-m-d');?>" onClick="laydate({istime: true,format: 'YYYY-MM-DD'})" />
+            </div>
+            <button type="button" class="btn user-btn">确定</button>
+        </div>
+        <!-- 搜索框end -->
+
+        
+        <div class="col-sm-6 col-md-6">
+            <div class="block block-bordered" style="padding-left:1%;padding-right:1%;">
+                <div class="block-header bg-gray-lighter" style="border:none;">
+                    <h3 class="block-title">订单走势</h3>
+                </div>
+                <div class="tab-head">
+                    <ul class="nav nav-tabs assetTypeBox1">
+                        <li id="assetNumber1" data-type="0" class="assetType active"><a href="###">金额</a></li>
+                        <li id="assetMoney1" data-type="1" class="assetType"><a href="###">数量</a></li>
+                    </ul>
+                    <div class="btn-group dataTimeBox1" style="margin-top: 0px;">
+                        <button type="button" data-time="0" class="btn btn-sm NumberShow btn-primary btn-default">7天</button>
+                        <button type="button" data-time="1" class="btn btn-sm NumberShow btn-default">15天</button>
+                        <button type="button" data-time="2" class="btn btn-sm NumberShow btn-default">30天</button>
+                    </div>
+                </div>
+                <div class="block block-link-hover3 text-center">
+                    <div id="echars1" style="height:360px;padding-top:0" class="block-content block-content-full"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="block block-bordered" style="padding-left:1%;padding-right:1%;">
+                <div class="block-header bg-gray-lighter" style="border:none;">
+                    <h3 class="block-title">返利总览</h3>
+                </div>
+                <div class="tab-head">
+                    <ul class="nav nav-tabs assetTypeBox2">
+                        <li id="assetNumber2" data-type="0" class="assetType active"><a href="###">金额</a></li>
+                    </ul>
+                    <div class="btn-group dataTimeBox2" style="margin-top: 0px;">
+                        <button type="button" data-time="0" class="btn btn-sm NumberShow btn-primary btn-default">7天</button>
+                        <button type="button" data-time="1" class="btn btn-sm NumberShow btn-default">15天</button>
+                        <button type="button" data-time="2" class="btn btn-sm NumberShow btn-default">30天</button>
+                    </div>
+                </div>
+                <div class="block block-link-hover3 text-center">
+                    <div id="echars2" style="height:360px;padding-top:0" class="block-content block-content-full"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 
+{/block}
+
+{block name="script"}
+ -->
+<script type="text/javascript">
+    $(function(){
+        function getTabData() {
+            var index = $('.nav-tabs .active').index();
+            $.ajax({
+                url: '/admin/index/getTabData/tab/' + index,
+                type: 'GET',
+                async: false,
+                success: function(data) {
+                    if(data.code) {
+                        $('#tab_merchant_count').text(data.data.tab_merchant_count);
+                        $('#tab_bill_money').text(data.data.tab_bill_money);
+                        $('#tab_order_money').text(data.data.tab_order_money);
+                        $('#tab_order_count').text(data.data.tab_order_count);
+                    }
+                }
+
+            });
+        }
+        $('.nav-tabs .change-tab').click(function() {
+            if($(this).is('.active')) {
+                return;
+            }
+            $(this).addClass('active').siblings().removeClass('active');
+            getTabData();
+        });
+    });
+</script>
+<js file="__PLUG__/echarts/echarts.common.js"/>
+<script type="text/javascript">
+    $(function(){
+        //先初始化图形；
+        var myChart1 = echarts.init(document.getElementById('echars1'));
+        var myChart2 = echarts.init(document.getElementById('echars2'));
+        var option1 = {
+            title: {
+                text: ''
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data:['']
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['周一','周二','周三','周四','周五','周六','周日','周一','周二','周三','周四','周五','周六','周日']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            color:['#5c90d2'],
+            series: [
+                {
+                    name:'订单走势',
+                    type:'line',
+                    stack: '总量',
+                    data:[120, 132, 101, 134, 90, 230, 210],
+                }
+            ]
+        };
+        var option2 = {
+            title: {
+                text: ''
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data:['']
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['周一','周二','周三','周四','周五','周六','周日','周一','周二','周三','周四','周五','周六','周日']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            color:['#5c90d2'],
+            series: [
+                {
+                    name:'返利总览',
+                    type:'line',
+                    stack: '总量',
+                    data:[120, 132, 101, 134, 90, 230, 210],
+                }
+            ]
+        };
+        function setOption1() {
+            var type = $('.assetTypeBox1 .active').attr('data-type');
+            var time = $('.dataTimeBox1 .btn-primary').attr('data-time');
+            $.ajax({
+                url: '/admin/index/orderApi',
+                type: 'POST',
+                data: {type: type, time: time},
+                async: false,
+                success: function(data) {
+                    if(data.code) {
+                        option1.xAxis.data = data.data.key;
+                        option1.series[0].data = data.data.value;
+                        myChart1.setOption(option1);
+                    }
+                }
+            });
+        }
+        function setOption2() {
+            var time = $('.dataTimeBox2 .btn-primary').attr('data-time');
+            $.ajax({
+                url: '/admin/index/billApi',
+                type: 'POST',
+                data: {time: time},
+                async: false,
+                success: function(data) {
+                    if(data.code) {
+                        option2.xAxis.data = data.data.key;
+                        option2.series[0].data = data.data.value;
+                        myChart2.setOption(option2);
+                    }
+                }
+            });
+        }
+        setOption1();
+        setOption2();
+        $('.assetTypeBox1 .assetType').click(function() {
+            if($(this).is('.active')) {
+                return;
+            }
+            $(this).addClass('active').siblings().removeClass('active');
+            setOption1();
+        });
+        $('.dataTimeBox1 .btn-default').click(function() {
+            if($(this).is('.btn-primary')) {
+                return;
+            }
+            $(this).addClass('btn-primary').siblings().removeClass('btn-primary');
+            setOption1();
+        });
+        $('.dataTimeBox2 .btn-default').click(function() {
+            if($(this).is('.btn-primary')) {
+                return;
+            }
+            $(this).addClass('btn-primary').siblings().removeClass('btn-primary');
+            setOption2();
+        });
+        $(window).resize(function(){
+            setOption1();
+            $('#echars1').width($(this).parent().outerWidth());
+            setOption2();
+            $('#echars2').width($(this).parent().outerWidth());
+        });
+
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: 'checkUpdate',
+            type: 'GET'
+        }).done(function(data) {
+            $('#product-auth').html(data.auth);
+            $('#product-update').html($('#product-update').text() + ' ' + data.update);
+        });
+    });
+</script>
+<!-- {/block}

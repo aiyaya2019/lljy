@@ -1,0 +1,9 @@
+[ 2019-05-17T10:21:24+08:00 ] 127.0.0.1 /Index/Video/details/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载控制器:Video
+

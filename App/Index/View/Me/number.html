@@ -1,0 +1,18 @@
+<include file="Common:header"/>
+<link rel="stylesheet" href="__CSS__/frequency.css">
+<div class="wrap">
+	<if condition="$code">
+		<foreach name="code" item="v">
+			<div class="fre-num">
+				<p>{$v.code}</p>
+				<p>总次数：{$v.all_num}</p>
+				<p>剩余可领取{$v.num}次</p>
+			</div>
+		</foreach>
+	<else/>
+	<div style="text-align:center; font-size:18px;margin-top: 10px;">无数据</div>
+	</if>
+
+</div>
+<!-- 底部包含 -->
+<include file="Common:footer"/>

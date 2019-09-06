@@ -1,0 +1,76 @@
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+$(function(){
+	wx.config({
+	    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+	    appId: "{$sharedata.appid}", // 必填，公众号的唯一标识
+	    timestamp: "{$sharedata.timestamp}", // 必填，生成签名的时间戳
+	    nonceStr: "{$sharedata.nonceStr}", // 必填，生成签名的随机串
+	    signature: "{$sharedata.signature}",// 必填，签名，见附录1
+	    jsApiList: [
+		   'checkJsApi',
+		   'openLocation',
+		   'getLocation'
+	    ]
+	});
+    wx.ready(function () { 
+        wx.checkJsApi({
+        jsApiList: [
+            'getLocation'
+        ],
+        success: function (res) {
+            alert(JSON.stringify(res));
+            alert(JSON.stringify(res.checkResult.getLocation));
+            if (res.checkResult.getLocation == false) {
+                alert('你的微信版本太低，不支持微信JS接口，请升级到最新的微信版本！');
+                return;
+            }
+        }
+        });
+        wx.getLocation({
+            success: function (res) {
+                var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+                var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+                var speed = res.speed; // 速度，以米/每秒计
+                var accuracy = res.accuracy; // 位置精度
+                alert(latitude+','+longitude+','+accuracy);
+                
+                // $.ajax({
+                //     url: '/Index/Product/getAddrByLonLat',
+                //     type: 'POST',
+                //     dataType: 'json',
+                //     data: {'longitude': longitude, 'latitude': latitude},//数据，这里使用的是Json格式进行传输
+                //     success: function(data){
+                //         console.log('====')
+                //         console.log(data);
+                //         if (data.code == 1) {
+                //             alert(data.msg);
+                //         }else{
+                //             alert(data.msg);
+                //         }
+                //     },
+                //     error: function(){
+                //         alert('请求错误');
+                //         // layer.open({
+                //         //     content: '请求错误',
+                //         //     skin: 'msg',
+                //         //     time: 2    //2秒后自动关闭
+                //         // });
+                //     }
+                // });
+
+
+
+
+
+            },
+            cancel: function (res) {
+                alert('用户拒绝授权获取地理位置');
+            }
+        });
+    });       
+    wx.error(function (res) {
+    //alert(res.errMsg);  //打印错误消息。及把 debug:false,设置为debug:ture就可以直接在网页上看到弹出的错误提示
+    });
+});
+</script>

@@ -1,0 +1,43 @@
+<include file="Common:header"/>
+<link rel="stylesheet" href="__CSS__/addCode.css">
+<div class="wrap">
+	<div class="addCode">
+		<div class="add-text">
+			<input class="comm textInp" type="number" name="code" placeholder="请输入防伪码" />
+		</div>
+		<div class="add-btn">
+			<button class="comm btn">添加</button>
+		</div>
+		
+	</div>
+</div>
+<script type="text/javascript">
+	$('.btn').click(function(){
+		var code = $("input[name='code']").val();
+		$.ajax({
+			url: '/Index/Me/addCode',
+			type: 'POST',
+			dataType: 'json',
+			data: {'code': code},//数据，这里使用的是Json格式进行传输
+			success: function(data){
+				console.log(data);
+				if (data.status == 1) {
+					window.location.href = '/Index/Me/code';
+				}else{
+					alert(data.msg);
+				}
+			},
+			error: function(){
+				alert('请求错误');
+				// layer.open({
+				//     content: '请求错误',
+				//     skin: 'msg',
+				//     time: 2    //2秒后自动关闭
+				// });
+			}
+		});
+
+	});
+</script>
+<!-- 底部包含 -->
+<include file="Common:footer"/>

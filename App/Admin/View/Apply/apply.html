@@ -1,0 +1,143 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>预约列表</h2>
+	<form action="#">
+		<div class="search_box clearfix">
+			<input type="text" class="f_left" value="{$_GET['keywords']}" name="keywords" placeholder="输入姓名">
+			<input type="submit" value="查询" class="btn blue_btn">
+			<!-- <button type="button" link="{:U('Video/video_edit')}" onclick="link(this)" class="btn blue_btn">添 加</button> -->
+		</div>
+	</form>
+	<div class="cont_box">
+		<table border="0" cellspacing="0" cellpadding="0" class="table" id="table_box">
+			<tr>
+				<th>全选</th>
+				<th>序号</th>
+				<th>姓名</th>
+				<th>身份证</th>
+				<th>身高/体重/年龄</th>
+				<th>性别</th>
+				<th>身体状况</th>
+				<th>父亲</th>
+				<th>父亲身份证</th>
+				<th>父亲联系电话</th>
+				<th>母亲</th>
+				<th>母亲身份证</th>
+				<th>母亲联系电话</th>
+				<th>家庭住址</th>
+				<th>资料</th>
+				<th>夏令营</th>
+				<th>备注</th>
+				<th>是否签名</th>
+				<th>添加时间</th>
+				<th>操 作</th>
+			</tr>
+			<if condition="$data">
+			    <foreach name='data' item = 'v'>
+					<tr>
+						<td><input type="checkbox" name="id[]" value="{$v.id}"></td>
+						<td>{$v.id}</td>
+						<td>{$v.name}</td>
+						<td>{$v.idcard}</td>
+						<td>{$v.height}cm/{$v.weight}kg/{$v.age}岁</td>
+						<td>
+							<if condition="$v['sex'] eq 0"> 未知
+							<elseif condition="$v['sex'] eq 1"/>男
+							<else /> 女
+							</if>
+						</td>
+						<td>{$v.health}</td>
+						<td>{$v.father}</td>
+						<td>{$v.pidcard}</td>
+						<td>{$v.pphone}</td>
+						<td>{$v.mother}</td>
+						<td>{$v.midcard}</td>
+						<td>{$v.mphone}</td>
+						<td>{$v.address}</td>
+
+						<td>{$v.info}</td>
+						<td>{$v.banner_name}</td>
+						<td>{$v.remarks}</td>
+						<td>
+							<if condition="$v['is_sign'] == 1">是
+							<else />否
+							</if>
+						</td>
+
+						<td>{$v.create_time|date="Y-m-d H:i:s",###}</td>
+						<td>
+						    <a href="{:U('Apply/apply_edit',array('id'=>$v['id']))}" class="table_btn table_edit edit_btn">
+								<i class="fa fa-edit"></i>
+								<span>编辑</span>
+							</a>
+							<a link="{:U('Apply/apply_delete')}" key="{$v.id}" class="table_btn table_del del_btn">
+								<i class="fa fa-trash-o"></i>
+								<span>删除</span>
+							</a>
+						</td>
+					</tr>
+				</foreach>
+				<tr>
+					<td colspan="20">
+						<div class="more-btn all" value="0">全选</div>
+						<div class="more-btn del">删除</div>
+					</td>
+				</tr>
+				<tr style="height: 60px;">
+					<td colspan="20" style="text-align:center">
+					    <div class="page">{$page}</div>
+					</td>
+				</tr>
+			<else/>
+			    <tr class="nocontent">
+					<td colspan="20">世界都清静了...</td>
+				</tr>
+			</if> 
+	    </table>
+	</div>
+</div>
+
+<script type="text/javascript">
+  <!-- 全选 -->
+  $('.all').click(function(){
+    var check = $(this).attr('value');
+    if (check == '0') {
+      $(this).attr('value', '1');
+      $("input[type='checkbox']").prop('checked', true);
+    }else{
+      $(this).attr('value', '0');
+      $("input[type='checkbox']").prop('checked', false);
+    }
+  });
+
+  // 多选删除
+  $('.del').click(function(){
+    var ids = $('input[type=checkbox]:checked').val();
+    if (!ids) {
+      layer.msg('请选择参数');return;
+    }
+    var senddata = $('input[type=checkbox]:checked').serialize();//table 为对应的数据表
+
+	layer.confirm('您确定要删除吗？', {
+	btn: ['确定','取消'] //按钮
+	},function(){
+	   $.ajax({
+	      url:'/Admin/Apply/apply_delete',
+	      type:"post",
+	      data:senddata,
+	      success:function(rs) {
+	      	console.log(rs);
+	         if (rs['code'] == 6){
+	            layer.msg(rs['msg']);
+	            window.location.reload();
+	         }else{
+	            layer.msg(rs['msg']);
+	         }
+	      }
+	   })
+	},function(){
+	  layer.closeAll();
+	});
+  });
+</script>
+<include file="Common:footer"/>

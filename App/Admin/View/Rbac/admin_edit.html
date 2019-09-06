@@ -1,0 +1,104 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>管理员添加</h2>
+	<div class="cont_box">
+		<form action="{:U('Rbac/admin_editHandle',array('user_id'=>$data['id']))}" method="post" id="form">
+			<ul class="addpro_box adduser_box">
+				<li>
+					<label>管理员账号：</label>
+					<input type="text" placeholder="请输入管理员账号" <if condition="C('RBAC_SUPERADMIN') eq $data['name']"> disabled </if> name="name" value="{$data.name}" />
+				</li>
+				<li>
+					<label>管理员密码：</label>
+					<input type="password" placeholder="请输入管理员密码" name="password" class="wlong" />
+				</li>
+				<li>
+					<label>管理员手机号：</label>
+					<input type="text" placeholder="请输入管理员手机号" name="phone" value="{$data.phone}" />
+				</li>
+				<if condition="$_SESSION['admin_id'] neq $data['id']">
+					<li>
+						<label>所属角色：</label>
+						<select name="role_id" class="carbrand">
+						    <foreach name="role" item="v">
+								<option value="{$v['id']}" <if condition="$v['id'] eq $data['role'][0]['id']">selected</if> >{$v.name}({$v.remark})</option>
+							</foreach>
+						</select>
+					</li>
+					<li>
+						<label>状态：</label>
+						<if condition="$data['status']">
+							<div class="radio_box status">
+								<i class="fa fa-1x fa-circle-thin"></i>
+								<input type="radio" name="status" value="0" class="input_radio"><span>开启</span>
+							</div>
+							<div class="radio_box status">
+								<i class="fa fa-1x fa-check-circle"></i>
+								<input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>锁定</span>
+							</div>
+						<else/>
+						    <div class="radio_box status">
+								<i class="fa fa-1x fa-check-circle"></i>
+								<input type="radio" name="status" value="0" class="input_radio" checked="checked"><span>开启</span>
+							</div>
+							<div class="radio_box status">
+								<i class="fa fa-1x fa-circle-thin"></i>
+								<input type="radio" name="status" value="1" class="input_radio"><span>锁定</span>
+							</div>
+						</if>
+					</li>
+				</if>
+				<li>
+					<label>备注：</label>
+					<textarea rows="3" name="msg">{$data.msg}</textarea>
+				</li>
+			</ul>
+			<div class="probtn_box clearfix">
+				<input type="submit" value="确认提交" class="btn btn_truck"/>
+				<input type="button" value="返回" class="btn btn_info back"/>
+			</div>
+		</form>
+	</div>
+</div>
+<include file="Common:footer"/>
+  <script type="text/javascript">
+    $(function(){
+        $('#form').validate({
+            rules: {
+              name: {
+                required:true,
+                rangelength:[2,10]    //输入字符范围
+              },
+              <if condition="!$data['id']">
+              password: {
+                required: true,
+                rangelength:[2,30],  //输入字符范围
+              },
+              </if>
+              phone: {
+                required: true,
+                digits:true,
+                rangelength:[11,11],  //输入字符范围
+              },
+            },
+            messages: {
+              name: {
+                required: "管理员名称不能为空",
+                rangelength:'请输入2-10之间的字符',
+              },
+              <if condition="!$data['id']">
+              password: {
+                required: "管理员密码不能为空",
+                rangelength:'请输入2-10之间的字符',
+              },
+              </if>
+              phone: {
+                required: "管理员手机号不能为空",
+                digits:"手机号必须是数字",
+                rangelength:"请输入正确的手机号"
+              },
+            }
+        })
+   })
+</script>
+</html>

@@ -1,0 +1,197 @@
+<include file="Common:header"/>
+<style>
+.delivery{background:#e95a00}
+</style>
+<div class="main_box">
+	<div class="cont_box">
+		<form action="{:U('Order/order_editHandle',array('id'=>$data['id'],'status'=>$_GET['status']))}" method="post" id="form">
+				<!--订单号-->
+				<div class="user_top">订单号：<span>{$data.order_num}</span> <if condition="$data['since_status'] eq 1"><span class='red'>【用户自提】</span> </if></div>
+				<if condition="$data['since_status'] neq 1">
+				    <div class="user_top order_top">收货人信息：</div>
+					<table border="0" cellspacing="0" cellpadding="0" class="table">
+						<thead>
+							<tr>
+								<th>姓名</th>
+								<th>电话</th>
+								<th>邮编</th>
+								<th>收货地址</th>
+								<th>快递编号</th>
+								<!-- <th>操作</th> -->
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>{$data['username']}</td>
+								<td>{$data['phone']}</td>
+								<td>{$data['zipcode']|default='000000'}</td>
+								<td>{$data['province']}{$data['city']}{$data['area']}{$data['addr']}</td>
+								<td>
+									<if condition="$data['logistics_code']">
+									   {$data['logistics_name']}:{$data.logistics_code}
+									<else/>
+									   未发货
+									</if>
+								</td>
+								<!-- <td>
+									<a href="" class="table_btn table_edit edit_btn">
+										<i class="fa fa-edit"></i>
+										<span>编辑</span>
+									</a>
+									<a onclick="logistics(this)" class="table_btn table_edit edit_btn">
+										<i class="fa fa-edit"></i>
+										<span>发货</span>
+									</a>
+								</td> -->
+							</tr>
+						</tbody>
+					</table>
+				</if>
+				<!--订单商品-->
+				<div class="user_top order_top">订单商品：</div>
+				<table border="0" cellspacing="0" cellpadding="0" class="table">
+					<thead>
+						<tr>
+							<th>商品名称</th>
+							<th>商品图片</th>
+							<th>商品运费</th>
+							<th>购买数量</th>
+							<th>防伪码</th>
+						</tr>
+					</thead>
+					<tbody>
+							<tr>
+								<td>{$product.name|subtext=15}</td>
+								<td><img src="{$product.pic}" class="listimg"></td>
+								<td>{$product.freight}</td>
+								<td>{$data.buy_num}</td>
+								<td>{$data.code}</td>
+							</tr>
+					</tbody>
+				</table>
+				<p class="business_tit"></p><br/>
+				<ul class="business_info">
+					<!-- 0未支付，1已支付待发货，2已发货待收货(有物流信息)，3已收货;4关闭；5发货中(还没物流信息） -->
+					<if condition="$data.status == 1">
+		                <li>
+		                    <label>订单已支付未发货，是否将状态改为发货中：</label>
+	                        <div class="radio_box status">
+	                            <i class="fa fa-1x fa-check-circle"></i>
+	                            <input type="radio" name="status" value="5" class="input_radio" checked="checked"><span>发货中</span>
+	                        </div>
+		                </li>
+		            </if>
+
+	                <!-- <li>
+	                    <label>订单状态：</label>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="status" value="0" class="input_radio" <> ><span>未支付</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>已支付</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>待收货</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>已收货</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>关闭</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>发货中</span>
+                        </div>
+	                </li> -->
+				</ul><br/><br/>
+				<!--订单备注-->
+				<!-- <div class="user_top order_top">订单备注：</div>
+				<textarea class="order_note" name="messages">{$data['messages']|default="无"}</textarea> -->
+				<div class="clearfix" style="margin:20px;overflow: hidden;"><br/>
+				    <if condition="$data['since_status'] eq 1">
+					    <if condition="$data['status'] eq 1">
+					         <input type="button" value="确认提货" class="btn delivery">
+						<elseif condition="$data['status'] eq 2 || $data['status'] eq 3 || $data['status'] eq 4" />
+							 <input type="button" value="已提货" class="btn">
+						</if>
+					</if>
+					<input type="submit" value="确认保存" class="btn blue_btn total_btn">
+					<input type="button" value="返回" class="btn btn_info back"/>
+				</div>
+			</form>
+	</div>
+</div>
+<script type="text/javascript">
+	function logistics(obj) {
+		layer.open({
+			  type: 1,
+			  title: "发货信息", //不显示标题
+			  area: ['420px', '240px'], //宽高
+			  content: $('.logistics'), //捕获的元素，注意：最好该指定的元素要存放在body最外层，否则可能被其它的相对元素所影响
+		});
+	}
+</script>
+<script type="text/javascript">
+    $(function(){
+	    $("#logistics").click(function() {
+	    	 var logistics_id = $("select[name=logistics_id]").val();
+	    	 var logistics_code = $("input[name=logistics_code]").val();
+	    	 if(logistics_id=="" || logistics_id==0){
+	    	 	layer.msg('请选择快递名称');
+	    	 	return false
+	    	 }
+	    	 if (logistics_code==""){
+	    	 	layer.msg('请输入快递单号');
+	    	 	return false
+	    	 }
+	    	 $.ajax({
+	    	 	url:"{:U('Ajax/order_logistics')}",
+	    	 	type:"post",
+	    	 	data:{
+	    	 		openid:"{$data.openid}",
+	    	 		order_id:"{$_GET['id']}",
+	    	 		logistics_name:logistics_id,
+	    	 		logistics_code:logistics_code
+	    	 	},
+	    	 	success:function(rs) {
+	    	 		if (rs['code']==6){
+	    	 			layer.closeAll();
+	    	 			layer.msg(rs['msg']);
+	    	 			location.reload();
+	    	 		}else{
+	    	 			layer.msg(rs['msg']);
+	    	 		}
+	    	 	}
+	    	 })
+	    })
+   })
+</script>
+<include file="Common:footer"/>
+<div class="main_box logistics" style="display: none;">
+	<div class="cont_box editpro_box">
+		<ul class="addpro_box">
+			<li>
+				<label>快递名称：</label>
+				<select name="logistics_id">
+					<option value="0">请选择快递</option>
+					<foreach name="logistics" item="v">
+					    <option value="{$v.name}" <if condition="$data['logistics_name'] eq $v['name']"> selected </if>  >{$v.name}</option>
+					</foreach>
+				<select>
+			</li>
+			<li>
+				<label>快递单号：</label>
+				<input type="text" placeholder="请输入快递单号" value="{$data.logistics_code}" name="logistics_code"/>
+			</li>
+		</ul>
+		<div class="probtn_box clearfix">
+			<input type="button" value="保存修改" id="logistics" class="btn blue_btn submit"/>
+		</div>
+	</div>
+</div>

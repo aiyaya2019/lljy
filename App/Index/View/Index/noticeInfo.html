@@ -1,0 +1,17 @@
+<include file="Common:header"/>
+<link rel="stylesheet" href="__CSS__/noticeInfo.css" />
+
+<div class="wrap" style="background: #fff;">
+	<div style="padding: 10px 20px;">
+		<h4 style="font-size: .55rem;">{$details.title}</h4>
+	</div>
+	<div class="time">
+		<p>发布时间:{$details.create_time|date="Y-m-d",###}</p>
+		<p>阅读量:{$details.visit}</p>
+	</div>
+	<div class="comtemt">
+		{$details.content}
+	</div>
+</div>
+<!-- 底部包含 -->
+<include file="Common:footer"/>

@@ -1,0 +1,49 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>新人福利</h2>
+	<div class="cont_box">
+		<form action="{:U('Base/welfareHandle')}" method="post" id="form">
+			<ul class="addpro_box adduser_box">
+			    <li>
+					<label>赠送主题：</label>
+					<input type="text" placeholder="请输入赠送主题" name="welfare_name" value="{$data.welfare_name}" />
+				</li>
+			    <li>
+					<label>开启状态：</label>
+					<if condition="$data['welfare_status'] eq 2">
+						<div class="radio_box welfare_status">
+							<i class="fa fa-1x fa-circle-thin"></i>
+							<input type="radio" name="welfare_status" value="1" class="input_radio"><span>开启</span>
+						</div>
+						<div class="radio_box welfare_status">
+							<i class="fa fa-1x fa-check-circle"></i>
+							<input type="radio" name="welfare_status" value="2" class="input_radio" checked="checked"><span>关闭</span>
+						</div>
+					<else/>
+					    <div class="radio_box welfare_status">
+							<i class="fa fa-1x fa-check-circle"></i>
+							<input type="radio" name="welfare_status" value="1" class="input_radio" checked="checked"/><span>开启</span>
+						</div>
+						<div class="radio_box welfare_status">
+							<i class="fa fa-1x fa-circle-thin"></i>
+							<input type="radio" name="welfare_status" value="2" class="input_radio"/><span>关闭</span>
+						</div>
+					</if>
+				</li>
+				<li>
+					<label>赠送优惠券：</label>
+					<select name="coupon_id">
+                        <option value="0">===请选择优惠券===</option>
+                        <foreach name="coupon" item="v">
+	                	    <option value="{$v.id}" <if condition="$v['id'] eq $data['coupon_id']"> selected </if> >{$v.name} </option>
+	                	</foreach>
+                    </select>
+				</li>
+			</ul>
+			<div class="probtn_box clearfix">
+				<input type="submit" value="确认提交" class="btn btn_truck"/>
+			</div>
+		</form>
+	</div>
+</div>
+<include file="Common:footer"/>

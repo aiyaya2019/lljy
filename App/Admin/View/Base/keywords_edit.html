@@ -1,0 +1,115 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>关键词修改</h2>
+	<div class="cont_box">
+		<form action="{:U('Base/keywords_Handle',array('id'=>$data['id']))}" method="post" id="form">
+			<ul class="addpro_box adduser_box">
+				<li>
+					<label>关键词名称：</label>
+					<input type="text" placeholder="请输入搜索关键词名称" name="name" value="{$data.name}" />
+				</li>
+				<li>
+					<label>排 序：</label>
+					<input type="text" placeholder="请输入排序" name="sort" value="{$data.sort}" />
+				</li>
+				<li>
+                    <label>显示状态：</label>
+                    <if condition="$data['status']">
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="status" value="0" class="input_radio"><span>显示</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>隐藏</span>
+                        </div>
+                    <else/>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="0" class="input_radio" checked="checked"><span>显示</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="status" value="1" class="input_radio"><span>隐藏</span>
+                        </div>
+                    </if>
+                </li>
+			</ul>
+			<div class="probtn_box clearfix">
+				<input type="submit" value="确认提交" class="btn btn_truck"/>
+				<input type="button" value="返回" class="btn btn_info back"/>
+			</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript" src="__PLUG__/plupload/plupload.full.min.js"></script>
+<script type="text/javascript">
+    var uploader_avatar = new plupload.Uploader({   //创建实例的构造方法
+        runtimes: 'gears,html5,html4,silverlight,flash',  //上传插件初始化选用那种方式的优先级顺序
+        browse_button: ['upload_pic'],   // 上传按钮
+        url: "{:U('Common/uploadsImg',array('path'=>goods_cate))}",   //远程上传地址
+        filters: {
+            max_file_size: '300kb',  //最大上传文件大小（格式100b, 10kb, 10mb, 1gb）
+            mime_types: [           //允许文件上传类型
+                {title: "files", extensions: "jpg,png,gif,jpeg"}
+            ]
+        },
+        multi_selection: false,     //true:ctrl多文件上传, false 单文件上传
+        init: {
+            FilesAdded: function(up, files) {  //文件上传前
+            	layer.load(0, {shade: [0.3,'#000']});
+            	var path = "{$data.pic}";
+            	if(path){
+                    $.ajax({
+                        url:"{:U('Ajax/delpic')}",
+                        type:"post",
+                        data:"path="+path
+                    });
+                }
+                uploader_avatar.start();
+            },
+            UploadProgress: function(up, file) {   //上传中，显示进度条
+                var percent = file.percent;
+            },
+            FileUploaded: function(up, file, info) {    //文件上传成功的时候触发
+                var data = eval("(" + info.response + ")");   //解析返回的json数据
+                $("#upload_pic").find('*').remove();
+                $("#upload_pic").append("<img src='"+data.pic+"' class='pic'/>");
+                $('input[name=pic]').val(data.pic);
+                 layer.closeAll();
+            },
+            Error: function(up, err) {  //上传出错的时候触发
+            	layer.closeAll();
+                alert(err.message);
+            }
+        }
+    });
+    uploader_avatar.init();
+</script>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      name: {
+		        required:true,
+		        rangelength:[1,5], //输入字符范围
+		      },
+		      sort: {
+		        required: true,
+		        digits:true
+		      },
+		    },
+		    messages: {
+		      name: {
+		        required: "关键字名称不能为空",
+		        rangelength:'请输入1-5之间的字符,'
+		      },
+		      sort: {
+		        required: "排序不能为空",
+		        digits:"必须是正整数"
+		      },
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

@@ -1,0 +1,79 @@
+<include file="Common:header"/>
+<link href="__PLUG__/logistics/css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="__PLUG__/logistics/citydata.js"></script>
+<script type="text/javascript" src="__PLUG__/logistics/areadata.js"></script>
+<script type="text/javascript" src="__PLUG__/logistics/auto_area.js"></script>
+<div class="main_box">
+    <h2><span></span>运费模板添加</h2>
+    <div class="cont_box">
+        <form action="{:U('Logistics/tpl_editHandle',array('id'=>$data['id']))}" method="post" id="form">
+            <ul class="addpro_box adduser_box">
+                <li>
+                    <label>模板名称：</label>
+                    <input type="text" placeholder="请输入模板名称" name="name" value="{$data.name}" />
+                </li>
+                <li>
+                    <label>配送区域：</label>
+                    <input type="text" name="address" value="{$data.address}" placeholder="请选择配送区域" class="area-duoxuan" data-value="{$data.address}" />
+                </li>
+                <li>
+                    <label>首件运费：</label>
+                    <input type="text" placeholder="请输入首件运费" name="first_fee" value="{$data.first_fee}" />
+                </li>
+                <li>
+                    <label>续件数量：</label>
+                    <input type="text" placeholder="请输入续件数量" name="continue_num" value="{$data.continue_num}" />
+                </li>
+                <li>
+                    <label>续件费用：</label>
+                    <input type="text" placeholder="请输入续件费用" name="continue_fee" value="{$data.continue_fee}" />
+                </li>
+                <li>
+                    <label>显示状态：</label>
+                    <if condition="$data['status']">
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="status" value="0" class="input_radio"><span>显示</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>隐藏</span>
+                        </div>
+                    <else/>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="0" class="input_radio" checked="checked"><span>显示</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="status" value="1" class="input_radio"><span>隐藏</span>
+                        </div>
+                    </if>
+                </li>
+            </ul>
+            <div class="probtn_box clearfix">
+                <input type="submit" value="确认提交" class="btn btn_truck"/>
+                <input type="button" value="返回" class="btn btn_info back"/>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      name: {
+		        required: true,
+		        minlength: 2
+		      }
+		    },
+		    messages: {
+		      name: {
+		        required: "模板名称不能为空",
+		        minlength: "模板长度不能小于 2个字符",
+		      }
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

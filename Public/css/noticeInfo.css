@@ -1,0 +1,19 @@
+*{padding: 0;margin: 0;list-style: none;}
+a{text-decoration: none;color: #ccc;}
+html, body {
+      position: relative;
+      height: 100%;
+      font-size:37.5px;
+    }
+   
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size:0;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    
+.time{padding:0 10px;color: #999; display: flex;justify-content: space-between;align-items: center;font-size: .38rem;}
+.comtemt{padding:20px 10px;font-size:.40rem}

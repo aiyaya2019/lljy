@@ -1,0 +1,355 @@
+<include file="Common:header"/>
+<style type="text/css">
+    .yfmb,.tyyf{display: none;}
+    .hide{display:none;}
+</style>
+<script type="text/javascript">
+    window.UEDITOR_HOME_URL = '__PLUG__/ueditor/';
+    window.onload = function(){
+        //设置编辑器的宽度
+        window.UEDITOR_CONFIG.initialFrameWidth = 1000; 
+         //设置编辑器的高度
+        window.UEDITOR_CONFIG.initialFrameHeight = 400; 
+         //配置编辑器图片上传文件的路径
+        UE.getEditor('content');   //传入txtarea 的ID即可载入
+    }
+ </script>
+
+<js file='__PLUG__/ueditor/ueditor.config.js'/>
+<js file='__PLUG__/ueditor/ueditor.all.min.js'/>
+<div class="main_box">
+    <h2><span></span>视频添加</h2>
+    <div class="cont_box">
+        <form action="{:U('Video/video_edit',array('id'=>$data['id']))}" method="post" id="form">
+            <ul class="addpro_box adduser_box">
+                <li>
+                    <label>视频名称：</label>
+                    <input type="text" placeholder="请输入视频名称" name="title" value="{$data.title}" />
+                </li>
+                <li>
+                    <label>所属分类：</label>
+                    <select name="cate_id">
+                        <option value="0">===请选择分类===</option>
+                        <foreach name='cate' item = 'v'>
+                            <option value="{$v.id}" <if condition="$v['id'] eq $data['cate_id']">selected</if> >{$v.html}{$v.name}</option>
+                        </foreach>
+                    </select>
+                </li>
+                <li>
+                    <label>上映时间：</label>
+                    <if condition="$data['show_time'] eq 0">
+                        <input type="text" placeholder="请选择上映时间" name="show_time" id="show_time" value="" />
+                    <else/>
+                        <input type="text" placeholder="请选择上映时间" name="show_time" id="show_time" value="{$data.show_time|date='Y-m-d',###}" />
+                    </if>
+                </li>
+
+
+                <li>
+                    <label>费用：</label>
+                    <if condition="$data['is_pay'] != null">
+
+                        <if condition="$data['is_pay'] == 1">
+                            <div class="radio_box is_pay">
+                                <i class="fa fa-1x fa-check-circle"></i>
+                                <input type="radio" name="is_pay" value="1" class="input_radio" checked="checked"><span>付费</span>
+                            </div>
+                            <div class="radio_box is_pay">
+                                <i class="fa fa-1x fa-circle-thin"></i>
+                                <input type="radio" name="is_pay" value="0" class="input_radio"><span>免费</span>
+                            </div>
+                        <else/>
+                            <div class="radio_box is_pay">
+                                <i class="fa fa-1x fa-circle-thin"></i>
+                                <input type="radio" name="is_pay" value="1" class="input_radio"><span>付费</span>
+                            </div>
+                            <div class="radio_box is_pay">
+                                <i class="fa fa-1x fa-check-circle"></i>
+                                <input type="radio" name="is_pay" value="0" class="input_radio" checked="checked"><span>免费</span>
+                            </div>
+                        </if>
+
+                    <else/>
+                        <div class="radio_box is_pay">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="is_pay" value="1" class="input_radio"><span>付费</span>
+                        </div>
+                        <div class="radio_box is_pay">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="is_pay" value="0" class="input_radio"><span>免费</span>
+                        </div>
+                    </if>
+                </li>
+
+                <li class="ispay hide">
+                    <label>价格：</label>
+                    <input type="text" placeholder="请输入价格" name="price" value="{$data.price}" />
+                </li>
+                <!-- <li class="ispay hide">
+                    <label>付费有效期/月：</label>
+                    <input type="text" placeholder="请输入用有效" name="term" value="{$data.term}" />
+                </li> -->
+
+                <li>
+                    <label>封面图：</label>
+                    <div id="upload_pic">
+                        <if condition="!$data['pic']">
+                            <i class="fa fa-plus-square-o fa-3x pic"></i>
+                        <else/>
+                            <img src="{$data.pic}" class="pic" alt="封面图">
+                        </if>
+                    </div>
+                    <input type="hidden" name="pic" value="{$data.pic}"/>
+                </li>
+                <li>
+                    <label>视频：</label>
+                    <div id="upload_video"><i class="fa fa-plus-square-o fa-3x pic"></i></div>
+                    <input type="text" name="video" value="{$data.video}" style="margin:30px 10px;"/>
+                </li>
+                <li>
+                    <label>简介：</label>
+                    <textarea name="desp" id="desp">{$data.desp}</textarea>
+                </li>
+                <li>
+                    <label>内容：</label>
+                    <textarea name="content" id="content">{$data.content}</textarea>
+                </li>
+
+                <li>
+                    <label>是否推荐：</label>
+                    <if condition="$data['is_red'] != null">
+
+                        <if condition="$data['is_red'] == 1">
+                            <div class="radio_box is_red">
+                                <i class="fa fa-1x fa-check-circle"></i>
+                                <input type="radio" name="is_red" value="1" class="input_radio" checked="checked"><span>是</span>
+                            </div>
+                            <div class="radio_box is_red">
+                                <i class="fa fa-1x fa-circle-thin"></i>
+                                <input type="radio" name="is_red" value="0" class="input_radio"><span>否</span>
+                            </div>
+                        <else/>
+                            <div class="radio_box is_red">
+                                <i class="fa fa-1x fa-circle-thin"></i>
+                                <input type="radio" name="is_red" value="1" class="input_radio"><span>是</span>
+                            </div>
+                            <div class="radio_box is_red">
+                                <i class="fa fa-1x fa-check-circle"></i>
+                                <input type="radio" name="is_red" value="0" class="input_radio" checked="checked"><span>否</span>
+                            </div>
+                        </if>
+
+                    <else/>
+                        <div class="radio_box is_red">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="is_red" value="1" class="input_radio" checked="checked"><span>是</span>
+                        </div>
+                        <div class="radio_box is_red">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="is_red" value="0" class="input_radio"><span>否</span>
+                        </div>
+                    </if>
+                </li>
+
+                <li>
+                    <label>显示状态：</label>
+                    <if condition="$data['status'] != null">
+
+                        <if condition="$data['status'] == 1">
+                            <div class="radio_box status">
+                                <i class="fa fa-1x fa-check-circle"></i>
+                                <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>显示</span>
+                            </div>
+                            <div class="radio_box status">
+                                <i class="fa fa-1x fa-circle-thin"></i>
+                                <input type="radio" name="status" value="0" class="input_radio"><span>隐藏</span>
+                            </div>
+                        <else/>
+                            <div class="radio_box status">
+                                <i class="fa fa-1xfa-circle-thin"></i>
+                                <input type="radio" name="status" value="1" class="input_radio"><span>显示</span>
+                            </div>
+                            <div class="radio_box status">
+                                <i class="fa fa-1x fa-check-circle"></i>
+                                <input type="radio" name="status" value="0" class="input_radio" checked="checked"><span>隐藏</span>
+                            </div>
+                        </if>
+
+                    <else/>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>显示</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="status" value="0" class="input_radio"><span>隐藏</span>
+                        </div>
+                    </if>
+                </li>
+
+                <li>
+                    <label>排 序：</label>
+                    <input type="text" placeholder="请输入排序" name="sort" value="{$data.sort}" />
+                </li>
+            </ul>
+            <div class="probtn_box clearfix">
+                <input type="submit" value="确认提交" class="btn btn_truck"/>
+                <input type="button" value="返回" class="btn btn_info back"/>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="__PLUG__/plupload/plupload.full.min.js"></script>
+<!-- 上传封面图 -->
+<script type="text/javascript">
+    var uploader_avatar = new plupload.Uploader({   //创建实例的构造方法
+        runtimes: 'gears,html5,html4,silverlight,flash',  //上传插件初始化选用那种方式的优先级顺序
+        browse_button: ['upload_pic'],   // 上传按钮
+        url: "{:U('Common/uploadsImg',array('path'=>video))}",   //远程上传地址
+        filters: {
+            max_file_size: '5mb',  //最大上传文件大小（格式100b, 10kb, 10mb, 1gb）
+            mime_types: [           //允许文件上传类型
+                {title: "files", extensions: "jpg,png,gif,jpeg"}
+            ]
+        },
+        multi_selection: false,     //true:ctrl多文件上传, false 单文件上传
+        init: {
+            FilesAdded: function(up, files) {  //文件上传前
+                layer.load(0, {shade: [0.3,'#000']});
+                var path = "{$data.pic}";
+                if(path){
+                    $.ajax({
+                        url:"{:U('Ajax/delpic')}",
+                        type:"post",
+                        data:"path="+path
+                    });
+                }
+                uploader_avatar.start();
+            },
+            UploadProgress: function(up, file) {   //上传中，显示进度条
+                var percent = file.percent;
+            },
+            FileUploaded: function(up, file, info) {    //文件上传成功的时候触发
+                var data = eval("(" + info.response + ")");   //解析返回的json数据
+                $("#upload_pic").find('*').remove();
+                $("#upload_pic").append("<img src='"+data.pic+"' class='pic'/>");
+                $('input[name=pic]').val(data.pic);
+                 layer.closeAll();
+            },
+            Error: function(up, err) {  //上传出错的时候触发
+                layer.closeAll();
+                alert(err.message);
+            }
+        }
+    });
+    uploader_avatar.init();
+</script>
+
+<!-- 上传视频 -->
+<script type="text/javascript">
+    var uploader_video = new plupload.Uploader({   //创建实例的构造方法
+        runtimes: 'gears,html5,html4,silverlight,flash',  //上传插件初始化选用那种方式的优先级顺序
+        browse_button: ['upload_video'],   // 上传按钮
+        url: "{:U('Common/OneUpload',array('path'=>video))}",   //远程上传地址
+        filters: {
+            max_file_size: '200mb',  //最大上传文件大小（格式100b, 10kb, 10mb, 1gb）
+            mime_types: [           //允许文件上传类型
+                {title: "files", extensions: "mp4"}
+            ]
+        },
+        multi_selection: false,     //true:ctrl多文件上传, false 单文件上传
+        init: {
+            FilesAdded: function(up, files) {  //文件上传前
+                layer.load(0, {shade: [0.3,'#000']});
+                var path = "{$data.pic}";
+                if(path){
+                    $.ajax({
+                        url:"{:U('Ajax/delpic')}",
+                        type:"post",
+                        data:"path="+path
+                    });
+                }
+                uploader_video.start();
+            },
+            UploadProgress: function(up, file) {   //上传中，显示进度条
+                var percent = file.percent;
+            },
+            FileUploaded: function(up, file, info) {    //文件上传成功的时候触发
+                var data = eval("(" + info.response + ")");   //解析返回的json数据
+                // $('.delvideo').attr('src',data.path);
+                $('input[name=video]').val(data.path);
+                 layer.closeAll();
+            },
+            Error: function(up, err) {  //上传出错的时候触发
+                layer.closeAll();
+                alert(err.message);
+            }
+        }
+    });
+    uploader_video.init();
+</script>
+
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      title: {
+		        required:true,
+		        rangelength:[3,100], //输入字符范围
+		      },
+              pic: {
+                required: true,
+                rangelength:[1,500], //输入字符范围
+              },
+              video: {
+                required: true,
+                rangelength:[1,500], //输入字符范围
+              },
+		      // sort: {
+		      //   required: true,
+		      //   digits:true
+		      // },
+		    },
+		    messages: {
+		      title: {
+		        required: "视频名称",
+		        rangelength:'请输入3-100之间的字符'
+		      },
+		      pic: {
+		        required: "请上传封面图",
+		        minlength: "请上传封面图",
+		      },
+              video: {
+                required: "请上传视频",
+                number:"请上传视频"
+              },
+		      // sort: {
+		      //   required: "排序不能为空",
+		      //   digits:"必须是正整数"
+		      // },
+		    }
+	    })
+   })
+</script>
+
+<!-- 日期 -->
+<script src="/Public/plug/laydate/laydate.js?v=1"></script>
+<script>
+    //执行一个laydate实例
+    laydate.render({
+        elem: '#show_time' //指定元素
+    });
+</script>
+
+<script type="text/javascript">
+    $('.is_pay').click(function(){
+        var cheched = $(this).children('input').val();
+        if (cheched == '1') {
+            $('.ispay').removeClass('hide');
+        }else{
+            $('.ispay').addClass('hide');
+        }
+    });
+</script>
+
+<include file="Common:footer"/>

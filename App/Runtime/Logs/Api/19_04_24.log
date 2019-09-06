@@ -1,0 +1,81 @@
+[ 2019-04-24T18:31:42+08:00 ] 127.0.0.1 /api/apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `tbkl_formid` [ RunTime:0.0183s ]
+SQL: DELETE FROM `tbkl_formid` WHERE ( (create_time+518400)<1556101902 ) [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0065s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+ERR: 1146:Table 'lljy.tbkl_mall_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tbkl_mall_order`
+ERR: 1146:Table 'lljy.tbkl_mall_order' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tbkl_mall_order`
+
+[ 2019-04-24T18:31:57+08:00 ] 127.0.0.1 /api/apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `tbkl_apply` [ RunTime:0.0063s ]
+SQL: INSERT INTO `tbkl_apply` (`create_time`) VALUES ('1556101917') [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005851s ]
+
+[ 2019-04-24T18:33:08+08:00 ] 127.0.0.1 /api/apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `tbkl_apply` [ RunTime:0.0051s ]
+SQL: INSERT INTO `tbkl_apply` (`create_time`) VALUES ('1556101988') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2019-04-24T18:37:02+08:00 ] 127.0.0.1 /api/apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `tbkl_apply` [ RunTime:0.0056s ]
+SQL: INSERT INTO `tbkl_apply` (`create_time`) VALUES ('1556102222') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2019-04-24T18:39:02+08:00 ] 127.0.0.1 /api/apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `tbkl_apply` [ RunTime:0.0052s ]
+SQL: INSERT INTO `tbkl_apply` (`members_id`,`name`,`idcard`,`height`,`weight`,`sex`,`age`,`health`,`father`,`pidcard`,`pphone`,`mother`,`midcard`,`mphone`,`address`,`info`,`remarks`,`is_sign`,`create_time`) VALUES ('1','学员姓名','idcard','170','50','1','20','良好','father','pidcard','13111111111','mother','midcard','13111111111','address','info','remarks','1','1556102342') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2019-04-24T18:39:39+08:00 ] 127.0.0.1 /api/apply/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `tbkl_apply` [ RunTime:0.0049s ]
+SQL: INSERT INTO `tbkl_apply` (`members_id`,`name`,`idcard`,`height`,`weight`,`sex`,`age`,`health`,`father`,`pidcard`,`pphone`,`mother`,`midcard`,`mphone`,`address`,`info`,`remarks`,`is_sign`,`create_time`) VALUES ('1','学员姓名','idcard','170','50','1','20','良好','father','pidcard','13111111111','mother','midcard','13111111111','address','info','remarks','1','1556102379') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+

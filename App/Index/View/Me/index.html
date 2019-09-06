@@ -1,0 +1,112 @@
+<include file="Common:header"/>
+<link rel="stylesheet" href="__CSS__/my.css" />
+<div class="wrap">
+	<div class="my-logo">
+		<div class="my-logo-img">
+			<div>
+				<img src="{$member.headimgurl|default='__IMG__/headimg.png'}" style="width: 80px;height: 80px;border-radius: 50%;"/>
+			</div>
+			<p style="font-size: 0.4rem;padding-top: 10px;">{$member.nickname|base64_decode}</p>
+		</div>
+		<div class="my-logo-btn">
+			<ul class="my-logo-btnaList">
+				<li class="active"><a href="{:U('Me/addCode')}" target="_self" style="color: #fff;">添加防伪码</a></li>
+				<li><a href="{:U('Me/code')}" target="_self" style="color: #999;">全部防伪码</a></li>
+				<li><a href="{:U('Me/code', ['state' => 'no'])}" target="_self" style="color: #999;">已过期</a></li>
+				<div style="clear: both;"></div>
+			</ul>
+		</div>
+	</div>
+	
+	<a href="{:U('Me/order')}" target="_self" style="color: #333;">
+		<div class="my-order-wrap">
+			<div class="my-order-title">我的订单</div>
+			<img src="__IMG__/icon-r.png" class="my-order-title" style="width: 0.2rem;height: .4rem;"/>
+		</div>
+	</a>
+	
+	
+	<div class="my-order-wrap2">
+		<div class="my-order-list">
+			<a href="{:U('Me/order')}">
+				<div><img src="__IMG__/allOrder.png" style="width: 30px;height: 30px;"/></div>
+				<div class="my-state">全部订单</div>
+			</a>
+		</div>
+		<div class="my-order-list">
+			<a href="{:U('Me/order', ['status' => '1'])}">
+				<div><img src="__IMG__/daiOrder.png" style="width: 30px;height: 30px;"/></div>
+				<div class="my-state">待发货</div>
+			</a>
+		</div>
+		<div class="my-order-list">
+			<a href="{:U('Me/order', ['status' => '5'])}">
+				<div><img src="__IMG__/fahuo.png" style="width: 30px;height: 30px;"/></div>
+				<div class="my-state">发货中</div>
+			</a>
+		</div>
+		<div class="my-order-list">
+			<a href="{:U('Me/order', ['status' => '2'])}">
+				<div><img src="__IMG__/dashouh.png" style="width: 30px;height: 30px;"/></div>
+				<div class="my-state">待收货</div>
+			</a>
+		</div>
+		<div class="my-order-list">
+			<a href="{:U('Me/order', ['status' => '3'])}">
+				<div><img src="__IMG__/yiqinas.png" style="width: 30px;height: 30px;"/></div>
+				<div class="my-state">已签收</div>
+			</a>
+		</div>
+	</div>
+	
+	<div class="my-list-wrtap">
+		<a href="{:U('Me/record')}" target="_self">
+			<div class="my-list">
+				<img src="__IMG__/icom03.png" style="width: 20px;height: 18px;" />
+				<div style="flex: 1;">
+					<div class="my-list-com">
+						<p style="padding-left: 10px;color: #333;">领取记录</p>
+						<img src="__IMG__/icon-r.png" style="width: 0.2rem;height: .4rem;" />
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	
+	<div>
+		<div class="my-list-wrtap">
+			<a href="{:U('Me/address')}" target="_self">
+				<div class="my-list">
+					<img src="__IMG__/icom02.png" style="width: 20px;height: 18px;" />
+					<div style="flex: 1;">
+						<div class="my-list-com">
+							<p style="padding-left: 10px;color: #333;">地址管理</p>
+							<img src="__IMG__/icon-r.png" style="width: 0.2rem;height: .4rem;" />
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="my-list-wrtap">
+			<a href="{:U('Me/number')}" target="_self">
+				<div class="my-list">
+					<img src="__IMG__/icom01.png" style="width: 20px;height: 18px;" />
+					<div style="flex: 1;">
+						<div class="my-list-com">
+							<p style="padding-left: 10px;color: #333;">可领取次数</p>
+							<img src="__IMG__/icon-r.png" style="width: 0.2rem;height: .4rem;" />
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+			<ul class="my-logo-btnaList" style="margin:0.8rem 0 2.5rem 0; display:flex; justify-content: center;">
+				<a href="{:U('Login/loginout')}" style="color: #fff; width:110%; height:0.8rem; border-radius:5px;"><li class="active" style="margin:0; border-radius:5px; height:0.6rem; line-height:0.6rem;">退出登陆</li></a>
+			</ul>
+	<!--底部-->
+	<include file="Common:footer_nav"/>
+
+</div>
+<!-- 底部包含 -->
+<include file="Common:footer"/>

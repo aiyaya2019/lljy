@@ -1,0 +1,16 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    	<foreach name="banner" item="v">
+	    	<div class="swiper-slide"><img src="{$v.pic}" style="max-width: 100%;max-height: 100%;"/></div>
+	    </foreach>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<script src="/Public/lib/swiper-4.5.0/dist/js/swiper.min.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		loop:true
+	});
+</script>

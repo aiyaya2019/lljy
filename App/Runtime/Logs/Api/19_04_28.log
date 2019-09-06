@@ -1,0 +1,651 @@
+[ 2019-04-28T09:39:16+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0047s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`video_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('0','1','18','6','2019042809391648911520','1556415556') [ RunTime:0.0316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2019-04-28T09:44:49+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+NOTIC: [8] Undefined index: order_info D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\OrderController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0049s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`video_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('0','1','18','6','2019042809444926866262','1556415889') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0047s ]
+ERR: 1048:Column 'ordercode' cannot be null
+ [ SQL语句 ] : INSERT INTO `tbkl_order_info` (`ordercode`) VALUES (NULL)
+ERR: 1048:Column 'ordercode' cannot be null
+ [ SQL语句 ] : INSERT INTO `tbkl_order_info` (`ordercode`) VALUES (NULL)
+
+[ 2019-04-28T09:45:19+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0045s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`video_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('0','1','18','6','2019042809451964203075','1556415919') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0048s ]
+SQL: INSERT INTO `tbkl_order_info` (`ordercode`) VALUES ('2019042809451964203075') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-04-28T09:45:57+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-28T09:45:58+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-28T09:49:33+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_video_cate` [ RunTime:0.0045s ]
+SQL: SELECT `name` FROM `tbkl_video_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0045s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`video_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('0','1','1','6','2019042809493390777679','1556416173') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0046s ]
+SQL: INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`video_id`,`cate_id`,`cate_name`,`title`,`pic`,`video_price`,`show_time`,`desp`,`content`,`is_pay`,`create_time`) VALUES ('2019042809493390777679','1','1','1','娱乐','视频名称1','/Uploads/Admin/video/155641602820601.jpg','0.00','1556416039','简介简介简介简介简介','<p><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span></p>','0','1556416173') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2019-04-28T09:52:18+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_video_cate` [ RunTime:0.0045s ]
+SQL: SELECT `name` FROM `tbkl_video_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0047s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`video_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('0','1','1','6','2019042809521850382452','1556416338') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0046s ]
+SQL: INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`video_id`,`cate_id`,`cate_name`,`title`,`pic`,`video`,`video_price`,`show_time`,`desp`,`content`,`is_pay`,`create_time`) VALUES ('2019042809521850382452','1','1','1','娱乐','视频名称1','/Uploads/Admin/video/155641602820601.jpg','/Uploads/Admin/video/2019-04-28/5cc5061fac94a.mp4','0.00','1556416039','简介简介简介简介简介','<p><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span></p>','0','1556416338') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2019-04-28T09:53:46+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_vip` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tbkl_vip` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: vip_name D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\OrderController.class.php 第 76 行.
+NOTIC: [8] Undefined index: vip_price D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\OrderController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0047s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`vip_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('1','1','1','6','2019042809534662170684','1556416426') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0046s ]
+ERR: 1048:Column 'vip_name' cannot be null
+ [ SQL语句 ] : INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`vip_id`,`vip_name`,`vip_price`,`create_time`) VALUES ('2019042809534662170684','1','1',NULL,NULL,'1556416426')
+ERR: 1048:Column 'vip_name' cannot be null
+ [ SQL语句 ] : INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`vip_id`,`vip_name`,`vip_price`,`create_time`) VALUES ('2019042809534662170684','1','1',NULL,NULL,'1556416426')
+
+[ 2019-04-28T09:54:19+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_vip` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tbkl_vip` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: vip D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\OrderController.class.php 第 76 行.
+NOTIC: [8] Undefined index: vip_price D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\OrderController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`vip_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('1','1','1','6','2019042809541926697848','1556416459') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0048s ]
+ERR: 1048:Column 'vip_name' cannot be null
+ [ SQL语句 ] : INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`vip_id`,`vip_name`,`vip_price`,`create_time`) VALUES ('2019042809541926697848','1','1',NULL,NULL,'1556416459')
+ERR: 1048:Column 'vip_name' cannot be null
+ [ SQL语句 ] : INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`vip_id`,`vip_name`,`vip_price`,`create_time`) VALUES ('2019042809541926697848','1','1',NULL,NULL,'1556416459')
+
+[ 2019-04-28T09:54:51+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_vip` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tbkl_vip` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-28T09:55:09+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_vip` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tbkl_vip` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: vip_price D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\OrderController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0046s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`vip_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('1','1','1','6','2019042809550957566525','1556416509') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0047s ]
+ERR: 1048:Column 'vip_price' cannot be null
+ [ SQL语句 ] : INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`vip_id`,`vip_name`,`vip_price`,`create_time`) VALUES ('2019042809550957566525','1','1','vip1',NULL,'1556416509')
+ERR: 1048:Column 'vip_price' cannot be null
+ [ SQL语句 ] : INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`vip_id`,`vip_name`,`vip_price`,`create_time`) VALUES ('2019042809550957566525','1','1','vip1',NULL,'1556416509')
+
+[ 2019-04-28T09:55:21+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_vip` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tbkl_vip` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0048s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`vip_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('1','1','1','6','2019042809552135281294','1556416521') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0051s ]
+SQL: INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`vip_id`,`vip_name`,`vip_price`,`create_time`) VALUES ('2019042809552135281294','1','1','vip1','10.00','1556416521') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2019-04-28T09:57:35+08:00 ] 127.0.0.1 /api/order/addorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_video_cate` [ RunTime:0.0048s ]
+SQL: SELECT `name` FROM `tbkl_video_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0047s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`video_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('0','1','2','10','2019042809573588229181','1556416655') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0048s ]
+SQL: INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`video_id`,`cate_id`,`cate_name`,`title`,`pic`,`video`,`video_price`,`show_time`,`desp`,`content`,`is_pay`,`create_time`) VALUES ('2019042809573588229181','1','2','1','娱乐','视频名称2','/Uploads/Admin/video/155641605738817.jpg','/Uploads/Admin/video/2019-04-28/5cc5063bb3cd5.mp4','10.00','1556416065','简介简介','<p><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span></p>','1','1556416655') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2019-04-28T11:02:18+08:00 ] 127.0.0.1 /api/order/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+ERR: 非法操作:my_order
+
+[ 2019-04-28T11:02:39+08:00 ] 127.0.0.1 /api/order/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+ERR: 非法操作:my_order
+
+[ 2019-04-28T11:03:08+08:00 ] 127.0.0.1 /api/order/my_apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+ERR: 非法操作:my_apply
+
+[ 2019-04-28T11:03:15+08:00 ] 127.0.0.1 /api/me/my_apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2019-04-28T11:03:26+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 86 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,i.is_pay FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode  WHERE o.members_id = 1 AND o.type = '0' ORDER BY id desc  [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tbkl_collect` WHERE `members_id` = 1  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2019-04-28T11:04:10+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 86 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,i.is_pay FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode  WHERE o.members_id = 1 AND o.type = '0' ORDER BY id desc  [ RunTime:0.0049s ]
+
+[ 2019-04-28T11:07:21+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 86 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,i.is_pay FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode  WHERE o.members_id = 1 AND o.type = '0' ORDER BY id desc  [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbkl_collect` WHERE `members_id` = 1  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2019-04-28T11:14:49+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode INNER JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '0' ORDER BY id desc  [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tbkl_collect` WHERE `members_id` = 1  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2019-04-28T11:16:11+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode INNER JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '0' ORDER BY id desc  [ RunTime:0.0050s ]
+
+[ 2019-04-28T11:16:23+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode INNER JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0048s ]
+
+[ 2019-04-28T11:16:23+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode INNER JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0045s ]
+
+[ 2019-04-28T11:17:05+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode right JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0046s ]
+
+[ 2019-04-28T11:17:05+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode right JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0048s ]
+
+[ 2019-04-28T11:17:15+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0048s ]
+
+[ 2019-04-28T11:17:15+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0047s ]
+
+[ 2019-04-28T11:17:47+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode right JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0047s ]
+
+[ 2019-04-28T11:17:47+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode right JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0050s ]
+
+[ 2019-04-28T11:17:48+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode right JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0046s ]
+
+[ 2019-04-28T11:17:48+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode right JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0047s ]
+
+[ 2019-04-28T11:17:52+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o right JOIN tbkl_order_info as i on o.ordercode = i.ordercode right JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0046s ]
+
+[ 2019-04-28T11:17:53+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o right JOIN tbkl_order_info as i on o.ordercode = i.ordercode right JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0047s ]
+
+[ 2019-04-28T11:17:59+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0050s ]
+
+[ 2019-04-28T11:17:59+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0047s ]
+
+[ 2019-04-28T11:17:59+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0052s ]
+
+[ 2019-04-28T11:18:00+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0051s ]
+
+[ 2019-04-28T11:18:00+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0050s ]
+
+[ 2019-04-28T11:18:00+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0049s ]
+
+[ 2019-04-28T11:18:00+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0048s ]
+
+[ 2019-04-28T11:18:01+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0049s ]
+
+[ 2019-04-28T11:18:02+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0052s ]
+
+[ 2019-04-28T11:18:02+08:00 ] 127.0.0.1 /api/me/my_order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: pagedata D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\MeController.class.php 第 87 行.
+SQL: SELECT o.id,o.ordercode,o.members_id,o.vip_id,o.video_id,o.pay_money,o.type,o.pay_time,o.status,o.create_time,i.vip_name,i.vip_price,i.cate_id,i.cate_name,i.title,i.pic,i.video,i.video_price,i.show_time,i.desp,i.content,v.look,v.collect,v.buy_num FROM tbkl_order as o left JOIN tbkl_order_info as i on o.ordercode = i.ordercode left JOIN tbkl_video as v on o.video_id = v.id  WHERE o.members_id = 1 AND o.type = '1' ORDER BY id desc  [ RunTime:0.0053s ]
+
+[ 2019-04-28T11:28:13+08:00 ] 127.0.0.1 /api/order/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Undefined variable: s D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Common\Common\function.php 第 125 行.
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_video_cate` [ RunTime:0.0049s ]
+SQL: SELECT `name` FROM `tbkl_video_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0049s ]
+SQL: INSERT INTO `tbkl_order` (`type`,`members_id`,`video_id`,`pay_money`,`ordercode`,`create_time`) VALUES ('0','1','2','10','2019042811281336238115','1556422093') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_info` [ RunTime:0.0051s ]
+SQL: INSERT INTO `tbkl_order_info` (`ordercode`,`members_id`,`video_id`,`cate_id`,`cate_name`,`title`,`pic`,`video`,`video_price`,`show_time`,`desp`,`content`,`is_pay`,`create_time`) VALUES ('2019042811281336238115','1','2','1','娱乐','视频名称2','/Uploads/Admin/video/155641605738817.jpg','/Uploads/Admin/video/2019-04-28/5cc5063bb3cd5.mp4','10.00','1556416065','简介简介','<p><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span><span style=\"color: rgb(51, 51, 51); font-family: \"Microsoft Yahei\", \"Hiragino Sans GB\", \"Helvetica Neue\", Helvetica, tahoma, arial, Verdana, sans-serif, 宋体; font-size: 14px; text-align: right; background-color: rgb(255, 255, 255);\">内容</span></p>','1','1556422093') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2019-04-28T11:51:12+08:00 ] 127.0.0.1 /api/video/hot_video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`cate_id`,`title`,`pic`,`video`,`is_pay`,`price`,`show_time`,`look`,`collect`,`buy_num` FROM `tbkl_video` WHERE `status` = '1' AND `is_red` = '1' ORDER BY sort asc LIMIT 5   [ RunTime:0.0002s ]
+
+[ 2019-04-28T11:52:53+08:00 ] 127.0.0.1 /api/video/hot_video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`cate_id`,`title`,`pic`,`video`,`is_pay`,`price`,`show_time`,`look`,`collect`,`buy_num` FROM `tbkl_video` WHERE `status` = '1' AND `is_red` = '1' ORDER BY sort asc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_video` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-04-28T11:52:54+08:00 ] 127.0.0.1 /api/video/hot_video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`cate_id`,`title`,`pic`,`video`,`is_pay`,`price`,`show_time`,`look`,`collect`,`buy_num` FROM `tbkl_video` WHERE `status` = '1' AND `is_red` = '1' ORDER BY sort asc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_video` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-04-28T11:53:38+08:00 ] 127.0.0.1 /api/video/hot_video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`cate_id`,`title`,`pic`,`video`,`is_pay`,`price`,`show_time`,`look`,`collect`,`buy_num` FROM `tbkl_video` WHERE `status` = '1' AND `is_red` = '1' ORDER BY sort asc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_video` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2019-04-28T11:54:32+08:00 ] 127.0.0.1 /api/video/hot_video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`cate_id`,`title`,`pic`,`video`,`is_pay`,`price`,`show_time`,`look`,`collect`,`buy_num` FROM `tbkl_video` WHERE `status` = '1' AND `is_red` = '1' ORDER BY sort asc LIMIT 5   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_video` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+

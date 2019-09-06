@@ -1,0 +1,64 @@
+<include file="Common:header"/>
+<style type="text/css">
+	.layui-layer-content{padding: 10px}
+</style>
+<div class="main_box">
+	<h2><span></span>会员反馈</h2>
+	<div class="cont_box">
+		<table border="0" cellspacing="0" cellpadding="0" class="table" id="table_box">
+			<tr>
+				<th>ID</th>
+				<th>头像【昵称】</th>
+				<th>姓名/电话</th>
+				<th>反馈内容</th>
+				<th>ip地址</th>
+				<th>反馈时间</th>
+				<th>操作</th>
+			</tr>
+			<if condition="$data">
+				<foreach name="data" item="v">
+					<tr id="1"><!--此处id为进行查看该会员相关信息时，当前数据的唯一标识-->
+						<td>{$v.id}</td>
+						<td><img src="{$v.headimgurl}" class="listimg"><span>【{$v.nickname|base64_decode}】</span></td>
+						<td><span>{$v.username}</span><span>【{$v.userphone}】</span></td>
+						<td>{$v.content|subtext=15}</td>
+						<td> {$v.ip} </td>
+						<td>{$v.create_time|date='Y-m-d H:i:s',###}</td>
+						<td>
+							<a class="table_btn table_edit edit_btn" content="{$v.content}" onclick="searchmsg(this)">
+								<i class="fa fa-search"></i>
+								<span>查看详情</span>
+							</a>
+							<a link="{:U('Members/messages_delete')}" key="{$v.id}" class="table_btn table_del del_btn">
+								<i class="fa fa-trash-o"></i>
+								<span>删除</span>
+							</a>
+						</td>
+					</tr>
+				</foreach>
+				<tr style="height: 60px;">
+					<td colspan="7" style="text-align:center">
+						<div class="page">{$page}</div>
+					</td>
+				</tr>
+				<else/>
+				<tr class="nocontent">
+					<td colspan="7">世界都清静了...</td>
+				</tr>
+			</if> 
+		</table>
+	</div>
+</div>
+<script type="text/javascript">
+	function searchmsg(obj){
+		var content = $(obj).attr('content');
+		layer.open({
+		  type: 1,
+		  title:"留言内容",
+		  skin: 'layui-layer-rim', //加上边框
+		  area: ['420px', '240px'], //宽高
+		  content: content
+		});
+	}
+</script>
+<include file="Common:footer"/>

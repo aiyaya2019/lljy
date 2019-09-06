@@ -1,0 +1,132 @@
+[ 2019-01-25T02:52:44+08:00 ] 140.205.205.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+
+[ 2019-01-25T10:11:00+08:00 ] 61.140.235.50 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+
+[ 2019-01-25T10:13:07+08:00 ] 113.111.114.203 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+
+[ 2019-01-25T10:13:47+08:00 ] 14.28.154.58 /Index/Mall/goodslist/cate_id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+
+[ 2019-01-25T10:13:48+08:00 ] 14.28.154.58 /Index/Mall/goodslist/cate_id/19?code=021fbeCq0qGXpn1DFIFq0Y3pCq0fbeCn&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `openid` = 'oSuTSspS9w47BgIUrCmuT_k4hFo4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_members` SET `openid`='oSuTSspS9w47BgIUrCmuT_k4hFo4',`nickname`='QUNFX+mZiOaXpeS4sCBb5Lit5Zu955S15L+hIF0=',`sex`='1',`city`='广州',`province`='广东',`headimgurl`='http://thirdwx.qlogo.cn/mmopen/vi_32/8Hhgy5FwcPYolvkJ3cibcRpmgYXmCZCjKAGUVJicJyzVAIRfqfzdxYgribFiaeYna2tsqcG2iavmibgjpTp6HnleicwHg/132',`type`='1' WHERE `id` = 56 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0156s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548382428 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tbkl_goods_cate` WHERE `id` = 19 AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `goods_cate_id` IN ('22','24','25','26','32','33','34','83','84','85','19') AND `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `logo` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 27 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 102 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 124 行.
+NOTIC: [8] Use of undefined constant shopcart - assumed 'shopcart' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 124 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-25T10:28:15+08:00 ] 112.96.115.138 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+
+[ 2019-01-25T14:02:58+08:00 ] 118.182.58.98 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+
+[ 2019-01-25T19:17:32+08:00 ] 118.182.58.98 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+

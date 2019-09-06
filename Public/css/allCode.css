@@ -1,0 +1,22 @@
+*{padding: 0;margin: 0;list-style: none;}
+a{text-decoration: none;color: #333;}
+html, body {
+      position: relative;
+      height: 100%;
+      font-size:37.5px;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .active{color: #125d70;}
+    .allCode-nav{padding: 20px 10px;background: #fff;display: flex;font-size: .45rem;margin-bottom: 15px;}
+		.comm{flex: 1;text-align: center;}
+		.allCode-list{padding: 0 10px;font-size: .5rem;background: #fff;}
+.allCode-list-list{display: flex;justify-content: space-between;border-bottom: .02rem solid #f0f0f0;padding:15px 0;}
+	.add-btn{text-align: center;margin-top: 20px;}
+	.add-btn button{background: #125d70;color: #fff;border-radius: 20px;padding: 10px 15px;width: 30%;}
+	.comm2{background: none;border: none;outline: none;}

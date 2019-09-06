@@ -1,0 +1,20 @@
+<include file="Common:header"/>
+<link rel="stylesheet" href="__CSS__/record.css" />
+<div class="wrap">
+<if condition="$record">
+	<foreach name="record" item="v">
+		<div class="rece_list">
+			<div class="rece_list_box">
+				<p>防伪码:{$v.code}<span style="float: right;font-size: .35rem;">{$v.num}/{$v.all_num}</span></p>
+				<p>领取商品：{$v.product_name}</p>
+				<p>领取时间：{$v.create_time}</p>
+			</div>
+		</div>
+	</foreach>
+<else/>
+	<div style="text-align:center; font-size:18px;margin-top: 10px;">无数据</div>
+</if>
+	
+</div>
+<!-- 底部包含 -->
+<include file="Common:footer"/>

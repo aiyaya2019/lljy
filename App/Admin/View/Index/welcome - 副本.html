@@ -1,0 +1,108 @@
+<include file="Common:header"/>
+<style type="text/css">
+	.count>ul>li{float: left;width: 33%;text-align: center;height: 150px;}
+	.count>ul>li>div>h2{line-height: 80px;font-size: 30px;border-right: 1px solid #ddd}
+	.count>ul>li>div>p{line-height: 20px;font-size: 25px;border-right: 1px solid #ddd}
+</style>
+<!--今日预约-->
+<div class="hello_box hello_order">
+	<h2><span></span>数据统计</h2>
+	<div class="hello_info count">
+		<ul>
+			<li>
+				<div>
+					<h2>未付款订单</h2>
+					<p>{$data.status0}</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h2>待发货订单</h2>
+					<p>{$data.status1}</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h2>待收货订单</h2>
+					<p>{$data.status2}</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h2>待评价订单</h2>
+					<p>{$data.status3}</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h2>已完成订单</h2>
+					<p>{$data.status4}</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h2>未审核分销商</h2>
+					<p>{$data.noapply}</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h2>商品总数</h2>
+					<p>{$data.goods}</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h2>评价总数</h2>
+					<p>{$data.evaluate}</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<h2>今天催单</h2>
+					<p>{$data.reminder}</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--技术支持-->
+<div class="hello_box hello_opera">
+	<h2><span></span>开利网络科技有限公司</h2>
+	<div class="hello_info">
+		<ul>
+			<li>
+				<label>公司地址：</label>
+				<span>天河区东圃一横路96号东泷创意社区C座218-219室</span>
+			</li>
+			<li>
+				<label>商务合作：</label>
+				<span>1747535035</span>
+			</li>
+			<li>
+				<label>咨询电话：</label>
+				<span>4006-4008-15 （8:30--18:00）</span>
+			</li>
+			<li>
+				<label>服务范围：</label>
+				<span>系统开发、小程序、营销推广、微信运营及公众号二次开发、巨划算平台等服务，集创意、策划、设计制作、技术开发于一体的专业网络应用服务提供商</span>
+			</li>
+		</ul>
+	</div>
+</div>
+<script>
+	$(function(){
+		function box(){
+			var bodyH = $("body").height(),
+				bodyW = $("body").width(),
+				boxL = parseInt($(".hello_box").css("margin-left"));
+			$(".hello_order").css({"width":(parseInt(bodyW)-(boxL*3)-505),"height":parseInt(bodyH)-70});
+			$(".hello_opera").css({"width":"445px","height":(parseInt(bodyH)-210)/3});
+		};
+		box();
+		$(window).resize(function(){
+			box();
+		});
+	});
+</script>
+<include file="Common:footer"/>

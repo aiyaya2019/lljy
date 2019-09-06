@@ -1,0 +1,45 @@
+<include file="Common:header"/>
+<link rel="stylesheet" href="__CSS__/orderInfo.css" />
+<div class="wrap">
+	<div class="order-top">
+		<img src="__IMG__/addressTop.png" style="width: 100%;height: 4px;"/>
+		<div class="order-top-com">
+			<img src="__IMG__/address-icom.png" style="width: 26px;height: 31px;"/>
+			<div style="flex: 1;">
+				<div class="order-top-com-r ell">
+					<div style="flex: 1;">
+						<p class="ell" style="line-height: 25px;">{$details.username}<span style="color: #999;"> {$details.phone}</span> </p>
+						<p class="ell" style="line-height: 25px;"><span style="color: #999;">{$details.province}{$details.city}{$details.area}{$details.addr}</span></p>
+					</div>
+					<img src="__IMG__/icon-r.png" style="width: 10px;height: 20px;" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="goodInfo">商品信息</div>
+	
+	<div class="goodInfo-list">
+		<img src="{$details.pic}" style="width:100px;height: 100px;" />
+		<div class="goodTitle">
+			<p class="ell" style="color: #999;padding: 0 5px;">{$details.name}</p>
+			<p class="num">x{$details.buy_num}</p>
+		</div>
+	</div>
+	
+	<div class="order-time-wrap">
+		<div class="order-con">
+			<p>订单号：{$details.order_num}</p>
+			<p>下单时间：{$details.create_time}</p>
+			<p>防伪码：{$details.code}</p>
+		</div>
+		<div style="padding: 0.25rem 0;">
+			<p>支付方式：微信</p>
+			<p>运费：{$details.freight}</p>
+			<p style="color: #095763 !important;">实付：{$details.pay_money}</p>
+		</div>
+	</div>
+	
+	
+</div>
+<!-- 底部包含 -->
+<include file="Common:footer"/>

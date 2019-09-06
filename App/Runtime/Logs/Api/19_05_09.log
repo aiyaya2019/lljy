@@ -1,0 +1,29 @@
+[ 2019-05-09T11:27:01+08:00 ] 127.0.0.1 /api/video/video_lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0182s ]
+SQL: SELECT `id`,`cate_id`,`title`,`pic`,`video`,`is_pay`,`price`,`show_time`,`look`,`collect`,`buy_num` FROM `tbkl_video` WHERE `status` = '1' ORDER BY sort asc LIMIT 10   [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: members_id D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Api\Controller\VideoController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `tbkl_collect` WHERE `members_id` = null  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2019-05-09T17:52:37+08:00 ] 127.0.0.1 /api/me/my_apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `tbkl_apply` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tbkl_apply` WHERE `members_id` = 1 AND `status` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+

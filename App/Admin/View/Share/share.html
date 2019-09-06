@@ -1,0 +1,65 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>分享管理</h2>
+	<div class="search_formbox clearfix">
+		<button type="button" link="{:U('Share/share_edit')}" onclick="link(this)" class="btn blue_btn">添 加</button>
+	</div>
+	<div class="cont_box">
+		<table border="0" cellspacing="0" cellpadding="0" class="table" id="table_box">
+			<tr>
+				<th>序号</th>
+				<th>分享名称</th>
+				<th>分享描述</th>
+				<th>位置</th>
+				<th>状态</th>
+				<th>添加时间</th>
+				<th>操 作</th>
+			</tr>
+			<if condition="$data">
+			    <foreach name='data' item = 'v'>
+					<tr>
+						<td>{$v.id}</td>
+						<td>{$v.name}</td>
+						<td>{$v.title}</td>
+						<td>
+							<if condition="$v['place'] eq 1">
+								<span>首页</span>
+							<elseif condition="$v['place'] eq 2"/>
+								<span>分销分享专属码</span>
+							</if>
+						</td>
+						<td>
+							<if condition="$v['status']">
+							   <a class="table_btn table_grey down_shelf" onclick="setfield(this,'share','{$v.id}')" >
+									<i class="fa fa-lock"></i>
+									<span field="status" value="0">隐藏</span>
+								</a>
+							<else/>
+							    <a class="table_btn table_warning up_shelf" onclick="setfield(this,'share','{$v.id}')">
+									<i class="fa fa-unlock-alt"></i>
+									<span field="status" value="1">显示</span>
+								</a>
+							</if>
+						</td>
+						<td>{$v.create_time|date="Y-m-d H:i:s",###}</td>
+						<td>
+						    <a href="{:U('Share/share_edit',array('id'=>$v['id']))}" class="table_btn table_edit edit_btn">
+								<i class="fa fa-edit"></i>
+								<span>编辑</span>
+							</a>
+							<a link="{:U('Share/share_delete')}" key="{$v.id}" class="table_btn table_del del_btn">
+								<i class="fa fa-trash-o"></i>
+								<span>删除</span>
+							</a>
+						</td>
+					</tr>
+				</foreach>
+			<else/>
+			    <tr class="nocontent">
+					<td colspan="7">世界都清静了...</td>
+				</tr>
+			</if> 
+	    </table>
+	</div>
+</div>
+<include file="Common:footer"/>

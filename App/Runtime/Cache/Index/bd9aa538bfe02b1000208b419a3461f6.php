@@ -1,0 +1,63 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-title" content="登录">
+		<title>登陆</title>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="/Public/css/login.css">
+	</head>
+	<body>
+		<div class="login_wrap">
+			<div>
+				<p class="login-title">防伪码</p>
+				<div style="margin-bottom: 30px;">
+					<input type="code" name="code" class="comm"/>
+				</div>
+				<p class="login-title">手机号</p>
+				<div>
+					<input type="phone" name="phone" class="comm"/>
+				</div>
+				<div style="text-align: center;margin-top: 20px;">
+					<button class="login-btn">登录</button>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('.login-btn').click(function(){
+			var code  = $("input[name='code']").val();
+			var phone = $("input[name='phone']").val();
+			if (!code) {
+				alert('请输入防伪码');return;
+			}
+			if (!phone) {
+				alert('请输入手机号');return;
+			}
+			if(!phone.match(/^1[34578]{1}\d{9}$/)){
+				alert('手机号码格式不正确！请重新输入！');return;
+			}
+			$.ajax({
+				url: '/Index/Login/login',
+				type: 'post',
+				dataType: 'json',
+				data: {'code': code, 'phone': phone},
+				success: function(data){
+					console.log(data)
+					if (data.status == '1') {
+						window.location.href = '/Index/Me/index';
+					}else{
+						alert(data.msg);
+					}
+
+				},
+				// error: function(data){
+				// 	// 
+				// }
+			});
+
+		});
+	</script>
+</html>

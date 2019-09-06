@@ -1,0 +1,27 @@
+<include file="Common:header"/>
+<script type="text/javascript">
+    window.UEDITOR_HOME_URL = '__PLUG__/ueditor/';
+    window.onload = function(){
+        //设置编辑器的宽度
+        window.UEDITOR_CONFIG.initialFrameWidth = 1000; 
+         //设置编辑器的高度
+        window.UEDITOR_CONFIG.initialFrameHeight = 400; 
+         //配置编辑器图片上传文件的路径
+        UE.getEditor('help');   //传入txtarea 的ID即可载入
+    }
+ </script>
+<js file='__PLUG__/ueditor/ueditor.config.js'/>
+<js file='__PLUG__/ueditor/ueditor.all.min.js'/>
+<div class="main_box">
+    <h2><span></span>帮助中心</h2>
+    <div class="cont_box">
+        <form action="{:U('Base/helpHandel')}" method="post" id="form">
+            <textarea name="help" id="help">{$data.help}</textarea>
+            <div class="probtn_box clearfix" style="margin-top: 50px">
+                <input type="submit" value="确认提交" class="btn btn_truck"/>
+                <input type="button" value="返回" class="btn btn_info back"/>
+            </div>
+        </form>
+    </div>
+</div>
+<include file="Common:footer"/>

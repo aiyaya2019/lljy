@@ -1,0 +1,31 @@
+<include file="Common:header"/>
+<link rel="stylesheet" href="__CSS__/allCode.css">
+<link rel="stylesheet" href="__CSS__/index.css" />
+<div class="wrap">
+	<div class="allCode-nav">
+		<div class="comm active" id="all"><a href="{:U('Me/code', ['state' => 'yes'])}" target="_self" style="color:black;">有效</a></div>
+		<div class="comm" id="overdue"><a href="{:U('Me/code', ['state' => 'no'])}" target="_self" style="color:black;">已过期</a></div>
+	</div>
+	<div class="allCode-list">
+		<if condition="$code">
+			<foreach name="code" item="v">
+				<div class="allCode-list-list">
+					<p style="color: #666666;">{$v.code}</p>
+					<p style="color: #666666; font-size:0.32rem;">总次数：{$v.all_num}</p>
+					<p style="color: #666666; font-size:0.32rem;">剩余领取次数：{$v.num}</p>
+					<p style="color: #999;font-size: .42rem;">{$v.get_time}</p>
+				</div>
+			</foreach>
+		<else/>
+			<div style="text-align:center; font-size:18px;margin-top: 10px;">无数据</div>
+		</if>
+	</div>
+	<div class="add-btn" id="goBtn">
+		<a href="{:U('Index/index')}" target="_self"><button class="comm2">去领取</button></a>
+			
+	</div>
+	<!--底部-->
+	<include file="Common:footer_nav"/>
+</div>
+<!-- 底部包含 -->
+<include file="Common:footer"/>

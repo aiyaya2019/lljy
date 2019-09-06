@@ -1,0 +1,1531 @@
+[ 2019-01-28T11:51:39+08:00 ] 183.14.31.152 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+
+[ 2019-01-28T11:51:42+08:00 ] 183.14.31.152 /?code=00148gVz0iXT7f11DOUz0uweVz048gVr&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `openid` = 'oSuTSsoLi2zwGfAj2xZu7m_GYSZc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_members` SET `openid`='oSuTSsoLi2zwGfAj2xZu7m_GYSZc',`nickname`='5p2O5a2Q6LGq8J+RivCfj7vwn5GK8J+Pu/CfkYrwn4+7',`sex`='1',`city`='珠海',`province`='广东',`headimgurl`='http://thirdwx.qlogo.cn/mmopen/vi_32/A8RNTepHjEpK9sIIgickZILJ7hFMiaouIZxeXiaLiamU2lKAr1jcianbyyo9felV6JTc28SqdDJp6X2AIg2attRBibQw/132',`type`='1' WHERE `id` = 42 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0156s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548647501 [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_share` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_share` WHERE `place` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 65 行.
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 28 行.
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 29 行.
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `subscribe_txt` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT `subscribe_url` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined variable: index_product E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 78 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 195 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 206 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T11:51:53+08:00 ] 183.14.31.152 /Index/Mall/goodslist/type/is_red
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548647513 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `is_red` = 1 AND `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `logo` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 27 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 48 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 102 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 124 行.
+NOTIC: [8] Use of undefined constant shopcart - assumed 'shopcart' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 124 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T11:51:58+08:00 ] 183.14.31.152 /Index/Ajax/savePay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548647518 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'savenum' in 'field list'
+ [ SQL语句 ] : SELECT `price`,`savenum` FROM `tbkl_goods` WHERE `id` = 7 LIMIT 1  
+ERR: 1054:Unknown column 'savenum' in 'field list'
+ [ SQL语句 ] : SELECT `price`,`savenum` FROM `tbkl_goods` WHERE `id` = 7 LIMIT 1  
+
+[ 2019-01-28T11:51:58+08:00 ] 183.14.31.152 /Index/Mall/details/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548647518 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_label` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM tbkl_goods_label AS a, tbkl_label AS b WHERE a.label_id = b.id AND a. goods_id='7' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_collect` WHERE `goods_id` = 7 AND `members_id` = 42 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `hospital_tel` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tbkl_order_evaluate` [ RunTime:0.0313s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_order_evaluate` WHERE ( goods_id ='7' and status = 0  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_evaluate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_order_evaluate` WHERE ( goods_id ='7' and status = 0 and star >=4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `subscribe_url` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\fd1c5bb2656085fd74daacdef31e469f.php 第 101 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\fd1c5bb2656085fd74daacdef31e469f.php 第 102 行.
+SQL: SELECT `service_phone` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T11:51:58+08:00 ] 183.14.31.152 /Index/Ajax/getCartNum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548647518 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: cart E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Cart.class.php 第 113 行.
+
+[ 2019-01-28T11:52:00+08:00 ] 183.14.31.152 /Index/Ajax/getAttr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548647520 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_attr_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_attr_cate` WHERE `goods_id` = 7 ORDER BY id ASC  [ RunTime:0.0000s ]
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\AjaxController.class.php 第 364 行.
+
+[ 2019-01-28T11:52:02+08:00 ] 183.14.31.152 /Index/Ajax/buyOrder/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548647522 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: attr E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\AjaxController.class.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\AjaxController.class.php 第 150 行.
+
+[ 2019-01-28T11:52:02+08:00 ] 183.14.31.152 /Index/Mall/confirm/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548647522 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_address` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_address` WHERE `members_id` = 42 AND `default` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_get_coupon` WHERE `members_id` = 42 AND `status` = 0 AND `full_price` < '0.10' ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `postage` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addressv E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\58a3f2f59d459f552196edf8bea3bb6c.php 第 28 行.
+NOTIC: [8] Undefined index: attr E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\58a3f2f59d459f552196edf8bea3bb6c.php 第 42 行.
+SQL: SELECT `postage` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:40:35+08:00 ] 42.90.104.32 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+
+[ 2019-01-28T15:40:40+08:00 ] 42.90.104.32 /?code=071EInHG0XEDke2ugTEG0jB3HG0EInHb&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `openid` = 'oSuTSslAjDj0zcV18HIb11qAEtQY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_members` SET `openid`='oSuTSslAjDj0zcV18HIb11qAEtQY',`nickname`='6I+g6JCd6I+g6JCdTWU=',`sex`='1',`city`='广州',`province`='广东',`headimgurl`='http://thirdwx.qlogo.cn/mmopen/vi_32/RdcLe3hDBz53VT7fvGpseRkLoiczfVIHpjnQbDic6kKLtAB2XOibMjJaSNr6GzWKUm9JdRqUCBpUgFheXhxExd8SQ/132',`type`='1' WHERE `id` = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661239 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_share` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_share` WHERE `place` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 65 行.
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `welfare_status` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 28 行.
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 29 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined variable: index_product E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 78 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 195 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 206 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:40:47+08:00 ] 42.90.104.32 /Index/Mall/details/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661247 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_label` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM tbkl_goods_label AS a, tbkl_label AS b WHERE a.label_id = b.id AND a. goods_id='4' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_collect` WHERE `goods_id` = 4 AND `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `hospital_tel` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tbkl_order_evaluate` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_order_evaluate` WHERE ( goods_id ='4' and status = 0  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_evaluate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_order_evaluate` WHERE ( goods_id ='4' and status = 0 and star >=4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE ( 1=1 AND id='4' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `subscribe_url` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\fd1c5bb2656085fd74daacdef31e469f.php 第 101 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\fd1c5bb2656085fd74daacdef31e469f.php 第 102 行.
+SQL: SELECT `service_phone` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:40:48+08:00 ] 42.90.104.32 /Index/Ajax/getCartNum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0156s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661248 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: cart E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Cart.class.php 第 113 行.
+
+[ 2019-01-28T15:40:49+08:00 ] 42.90.104.32 /Index/Ajax/getAttr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661249 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_attr_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_attr_cate` WHERE `goods_id` = 4 ORDER BY id ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_attr_option` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_attr_option` WHERE ( 1=1 AND attr_cate_id='9' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_attr_option` WHERE ( 1=1 AND attr_cate_id='10' )  [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:40:53+08:00 ] 42.90.104.32 /Index/Ajax/getAttrval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661253 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_attr_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_attr_list` WHERE `goods_id` = 4 AND `attr_val` = '20_24' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:40:54+08:00 ] 42.90.104.32 /Index/Ajax/getAttrval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661254 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_attr_list` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_goods_attr_list` WHERE `goods_id` = 4 AND `attr_val` = '20_23' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:40:55+08:00 ] 42.90.104.32 /Index/Ajax/getAttrval.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661255 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_attr_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_attr_list` WHERE `goods_id` = 4 AND `attr_val` = '21_23' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:40:56+08:00 ] 42.90.104.32 /Index/Ajax/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661256 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: cart E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Cart.class.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Cart.class.php 第 28 行.
+NOTIC: [8] Undefined variable: data E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\AjaxController.class.php 第 130 行.
+
+[ 2019-01-28T15:40:56+08:00 ] 42.90.104.32 /Index/Ajax/getCartNum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661256 [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:40:58+08:00 ] 42.90.104.32 /Index/Mall/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661258 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 75 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 97 行.
+NOTIC: [8] Use of undefined constant shopcart - assumed 'shopcart' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 97 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:41:00+08:00 ] 42.90.104.32 /Index/Ajax/getAllPrice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661260 [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:41:02+08:00 ] 42.90.104.32 /Index/Ajax/getAllPrice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661262 [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:41:03+08:00 ] 42.90.104.32 /Index/Ajax/buyOrder/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661263 [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:41:03+08:00 ] 42.90.104.32 /Index/Mall/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661263 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_address` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_address` WHERE `members_id` = 4 AND `default` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_get_coupon` WHERE `members_id` = 4 AND `status` = 0 AND `full_price` < '20.00' ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `postage` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addressv E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\58a3f2f59d459f552196edf8bea3bb6c.php 第 28 行.
+SQL: SELECT `postage` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:51:19+08:00 ] 42.90.104.32 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661879 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_share` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_share` WHERE `place` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 65 行.
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 28 行.
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 29 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined variable: index_product E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 78 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 195 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 206 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:51:27+08:00 ] 42.90.104.32 /Index/Members/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661887 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_collect` WHERE `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news_search` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news_search` WHERE `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_agent` WHERE `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 AND `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 AND `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 AND `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 AND `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\cc1e52245be1d728c340719abb2c798f.php 第 181 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\cc1e52245be1d728c340719abb2c798f.php 第 192 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\cc1e52245be1d728c340719abb2c798f.php 第 203 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\cc1e52245be1d728c340719abb2c798f.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:51:29+08:00 ] 42.90.104.32 /Index/Members/rechange.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661889 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_money_package` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_money_package` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `service_phone` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `service_phone` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\8ad1443e460f6d6cd06f22cf9093e150.php 第 46 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\8ad1443e460f6d6cd06f22cf9093e150.php 第 57 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\8ad1443e460f6d6cd06f22cf9093e150.php 第 68 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\8ad1443e460f6d6cd06f22cf9093e150.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-28T15:51:30+08:00 ] 42.90.104.32 /Index/Ajax/moneyHandel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661890 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_money_package` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_money_package` WHERE `id` = 5 AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ordercode E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\AjaxController.class.php 第 434 行.
+
+[ 2019-01-28T15:51:31+08:00 ] 42.90.104.32 /Index/Pay/wxpay.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661890 [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `tbkl_members` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: msg E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\1498fb061986ddf8f38b9feea08369f0.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:51:41+08:00 ] 42.90.104.32 /Index/Mall/cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661901 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `status` = 0 AND `pid` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `hospital_tel` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 71 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 82 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 82 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 93 行.
+NOTIC: [8] Use of undefined constant shopcart - assumed 'shopcart' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 93 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:51:42+08:00 ] 42.90.104.32 /Index/Ajax/getCate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661902 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 19 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 22 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 83 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:51:43+08:00 ] 42.90.104.32 /Index/Ajax/getCate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661903 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 27 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 35 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:51:44+08:00 ] 42.90.104.32 /Index/Ajax/getCate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661904 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 20 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 23 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:51:45+08:00 ] 42.90.104.32 /Index/Ajax/getCate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661905 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 21 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 48 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:51:46+08:00 ] 42.90.104.32 /Index/Ajax/getCate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661906 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 28 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 55 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:51:47+08:00 ] 42.90.104.32 /Index/Ajax/getCate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661907 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 21 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 48 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:51:48+08:00 ] 42.90.104.32 /Index/Mall/goodslist/cate_id/52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661908 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tbkl_goods_cate` WHERE `id` = 52 AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `goods_cate_id` IN ('52') AND `status` = 0 ORDER BY id DESC  [ RunTime:0.0469s ]
+SQL: SELECT `logo` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 27 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 102 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 124 行.
+NOTIC: [8] Use of undefined constant shopcart - assumed 'shopcart' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 124 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:51:51+08:00 ] 42.90.104.32 /Index/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661911 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_share` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_share` WHERE `place` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 65 行.
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 28 行.
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 29 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined variable: index_product E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 78 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 195 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 206 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:51:56+08:00 ] 42.90.104.32 /Index/Mall/cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661916 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `status` = 0 AND `pid` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `hospital_tel` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 71 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 82 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 82 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 93 行.
+NOTIC: [8] Use of undefined constant shopcart - assumed 'shopcart' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 93 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\f8f7b8dea3c42d6993611b7e52173778.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:51:56+08:00 ] 42.90.104.32 /Index/Ajax/getCate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661916 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 19 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 22 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `pid` = 83 AND `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+
+[ 2019-01-28T15:51:58+08:00 ] 42.90.104.32 /Index/Mall/goodslist/cate_id/34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548661918 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tbkl_goods_cate` WHERE `id` = 34 AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `goods_cate_id` IN ('34') AND `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `logo` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 27 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 102 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 113 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 124 行.
+NOTIC: [8] Use of undefined constant shopcart - assumed 'shopcart' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 124 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\de8b8e24312e189796a4be317f027c93.php 第 135 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:53:22+08:00 ] 42.90.104.32 /Index/Newyear/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_newyear` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_newyear` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:53:35+08:00 ] 42.90.104.32 /Index/Newyear/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:53:50+08:00 ] 42.90.104.32 /Index/Newyear/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:55:17+08:00 ] 42.90.104.32 /Index/Newyear/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_newyear` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_newyear` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T15:55:19+08:00 ] 42.90.104.32 /Index/Newyear/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T16:03:31+08:00 ] 42.90.104.32 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548662611 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `status` = 0 AND `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_column` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_column` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_index_adv` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_index_adv` WHERE `status` = 0 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `is_index_product` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `status` = 0 AND `is_red` = 1 ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_share` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_share` WHERE `place` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 65 行.
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `welfare_status` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 28 行.
+NOTIC: [8] Undefined variable: base E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 29 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined index: title E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 53 行.
+NOTIC: [8] Undefined variable: index_product E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 78 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 110 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 184 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 195 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 206 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\26b56d210010e7f91b3261113c9c2df0.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T16:03:44+08:00 ] 42.90.104.32 /Index/Mall/details/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548662624 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_goods_cate` WHERE ( 1=1 AND id='91' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_label` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM tbkl_goods_label AS a, tbkl_label AS b WHERE a.label_id = b.id AND a. goods_id='7' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_collect` WHERE `goods_id` = 7 AND `members_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `hospital_tel` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tbkl_order_evaluate` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_order_evaluate` WHERE ( goods_id ='7' and status = 0  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_order_evaluate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_order_evaluate` WHERE ( goods_id ='7' and status = 0 and star >=4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `subscribe_url` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\fd1c5bb2656085fd74daacdef31e469f.php 第 101 行.
+NOTIC: [8] Undefined index: savenum E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\fd1c5bb2656085fd74daacdef31e469f.php 第 102 行.
+SQL: SELECT `service_phone` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T16:03:49+08:00 ] 42.90.104.32 /Index/Ajax/getCartNum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548662629 [ RunTime:0.0000s ]
+
+[ 2019-01-28T16:03:49+08:00 ] 42.90.104.32 /Index/Mall/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548662629 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 75 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 86 行.
+NOTIC: [8] Use of undefined constant Mall - assumed 'Mall' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 97 行.
+NOTIC: [8] Use of undefined constant shopcart - assumed 'shopcart' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 97 行.
+NOTIC: [8] Use of undefined constant Members - assumed 'Members' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\d5335e5125c52acdc4eea3ed224cedf4.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T16:03:53+08:00 ] 42.90.104.32 /Index/Ajax/getAllPrice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548662633 [ RunTime:0.0000s ]
+
+[ 2019-01-28T16:03:54+08:00 ] 42.90.104.32 /Index/Ajax/buyOrder/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548662634 [ RunTime:0.0000s ]
+
+[ 2019-01-28T16:03:54+08:00 ] 42.90.104.32 /Index/Mall/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_get_coupon` [ RunTime:0.0000s ]
+SQL: UPDATE `tbkl_get_coupon` SET `status`='2' WHERE `status` = 0 AND `end_time` < 1548662634 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_address` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_address` WHERE `members_id` = 4 AND `default` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_get_coupon` WHERE `members_id` = 4 AND `status` = 0 AND `full_price` < '20.00' ORDER BY id DESC  [ RunTime:0.0000s ]
+SQL: SELECT `postage` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addressv E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Index\58a3f2f59d459f552196edf8bea3bb6c.php 第 28 行.
+SQL: SELECT `postage` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-28T16:43:39+08:00 ] 101.132.126.80 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: code E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Index\Controller\WechatApiController.class.php 第 83 行.
+

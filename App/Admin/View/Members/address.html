@@ -1,0 +1,54 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>用户地址管理</h2>
+	<div class="search_formbox clearfix">
+		<button type="button" link="{:U('Members/address_edit')}" onclick="link(this)" class="btn blue_btn">添 加</button>
+	</div>
+	<div class="cont_box">
+		<table border="0" cellspacing="0" cellpadding="0" class="table" id="table_box">
+			<tr>
+				<th>序号</th>
+				<th>所属会员</th>
+				<th>姓名</th>
+				<th>电话</th>
+				<th>地址详情</th>
+				<th>操 作</th>
+			</tr>
+			<if condition="$data">
+			    <foreach name='data' item = 'v'>
+					<tr>
+						<td>{$v.id}</td>
+						<td>
+					    	<a href="{:U('Members/search',array('id'=>$v['members_id']))}">
+								<img src="{$v.headimgurl}" class="listimg"><span>【{$v.nickname|base64_decode}】</span>
+							</a>
+						</td>
+						<td>{$v.username}</td>
+						<td>{$v.userphone}</td>
+						<td>{$v.province}{$v.city}{$v.area}{$v.details}</td>
+						<td>
+						    <a href="{:U('Members/address_edit',array('id'=>$v['id']))}" class="table_btn table_edit edit_btn">
+								<i class="fa fa-edit"></i>
+								<span>编辑</span>
+							</a>
+							<a link="{:U('Members/address_delete')}" key="{$v.id}" class="table_btn table_del del_btn">
+								<i class="fa fa-trash-o"></i>
+								<span>删除</span>
+							</a>
+						</td>
+					</tr>
+				</foreach>
+				<tr style="height: 60px;">
+					<td colspan="8" style="text-align:center">
+					    <div class="page">{$page}</div>
+					</td>
+				</tr>
+			<else/>
+			    <tr class="nocontent">
+					<td colspan="7">世界都清静了...</td>
+				</tr>
+			</if> 
+	    </table>
+	</div>
+</div>
+<include file="Common:footer"/>

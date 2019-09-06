@@ -1,0 +1,19 @@
+*{padding: 0;margin: 0;list-style: none;}
+a{text-decoration: none;color: #ccc;}
+html, body {
+      position: relative;
+      height: 100%;
+      font-size:37.5px;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 0;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .success{width: 100%;height: 300px;background: #fff;display: flex;flex-direction: column;font-size: .45rem;align-items: center;justify-content: center;}
+	.comm{background:none;border:none;outline: none;}
+.goOrder{width: 80%;background: #1a5a6c;margin: 20px auto;padding: 10px 0;text-align: center;}
+.goOrder button{color: #fff;font-size: .5rem;}

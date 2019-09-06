@@ -1,0 +1,53 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>短信管理</h2>
+	<div class="search_formbox clearfix">
+		<button type="button" link="{:U('Tools/messages_edit')}" onclick="link(this)" class="btn blue_btn">发送短信</button>
+	</div>
+	<div class="cont_box">
+		<table border="0" cellspacing="0" cellpadding="0" class="table" id="table_box">
+			<tr>
+				<th>ID</th>
+				<th>手机号</th>
+				<th>短信内容</th>
+				<th>发送时间</th>
+				<th>状态</th>
+				<th>操 作</th>
+			</tr>
+			<if condition="$data">
+				<foreach name='data' item = 'v'>
+					<tr>
+						<td>{$v.id}</td>
+						<td>{$v.phone}</td>
+						<td>{$v.content|subtext=30}</td>
+						<td>{$v.create_time|date="Y-m-d H:i:s",###}</td>
+						<td>
+							<if condition="$v['status']">
+							   <a class="table_btn table_grey down_shelf">
+									<i class="fa fa-close"></i>
+									<span field="status" value="1">失败</span>
+								</a>
+							<else/>
+								<a class="table_btn table_warning up_shelf">
+									<i class="fa fa-check"></i>
+									<span field="status" value="0">成功</span>
+								</a>
+							</if>
+						</td>
+						<td>
+							<a link="{:U('Tools/messages_delete')}" key="{$v.id}" class="table_btn table_del del_btn">
+								<i class="fa fa-trash-o"></i>
+								<span>删除</span>
+							</a>
+						</td>
+					</tr>
+				</foreach>
+			<else/>
+			    <tr class="nocontent">
+					<td colspan="6">世界都清静了...</td>
+				</tr>
+			</if> 
+	    </table>
+	</div>
+</div>
+<include file="Common:footer"/>

@@ -1,0 +1,72 @@
+*{padding: 0;margin: 0;list-style: none;}
+a{text-decoration: none;color: #ccc;}
+html, body {
+      position: relative;
+      height: 100%;
+      font-size:37.5px;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 0;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .wrap{
+    	box-sizing: border-box;margin-bottom: 70px;
+    }
+.my-logo{
+	width: 100%;
+	height: 6.5rem;
+	background: url(/Public/images/my-bg.png) no-repeat;background-size: cover;
+}
+.my-logo-img{
+	width: 100%;
+	padding-top:40px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.my-state{font-size: .4rem;line-height: 40px;color: #333333;padding-top: 10px;}
+.my-logo-btnaList{font-size: 0.35rem;text-align: center;display: flex;padding: 0 0.5rem;}
+.my-logo-btnaList li{flex: 1;border: 0.02rem solid #999;margin-right: 20px;color: #999;padding: 0.2rem 0.25rem;border-radius: 20px;}
+.my-logo-btnaList li:nth-last-child(2){margin-right:0;}
+
+.active{background: #125d70;border:0 !important;color: #fff !important;}
+
+.my-order-wrap{display: flex;justify-content:space-between;align-items: center;margin-top: 0.4rem;background: #fff;font-size: 0.5rem;font-weight:500;padding:0.4rem 0.2rem;border-bottom: 0.02rem solid #f0f0f0;}
+.my-order-title{font-weight: 300;font-size: .45rem;}
+.my-order-wrap2{display: flex;padding: 0.5rem .2rem;justify-content: center;align-items: center;background: #fff;margin-bottom: 15px;}
+.my-order-list{flex: 1;text-align: center;}
+.my-list-wrtap{width:94%;margin: 0 auto;background: #FFF;padding: 12px 10px;border-bottom:0.02rem solid #f0f0f0;}
+.my-list{display: flex;justify-content: center;align-items: center;}
+.my-list-com{display: flex;justify-content: space-between;align-items: center;font-size: 0.4rem;}
+
+.product-foot-wrap{height: 55px;background: #fff;position: fixed;bottom: 0;z-index: 999;width: 100%;}
+
+.product-foot-flx{display: flex;align-items: center;}
+
+.product-foot-flx div{flex: 1;}
+
+.foot-icom{display: flex;flex-direction: column;align-items: center;font-size: .38rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

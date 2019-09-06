@@ -1,0 +1,161 @@
+<include file="Common:header"/>
+<div class="main_box">
+    <h2><span></span>专属码配置</h2>
+    <div class="content">
+        <form action="{:U('Members/barcodeHandle')}" method="post" id="form">
+            <ul class="addpro_box adduser_box">
+                <li>
+                    <label>分享背景图：(760px*350px)</label>
+                    <div id="sharebg">
+                        <if condition="!$data['sharebg']">
+                            <i class="fa fa-plus-square-o fa-3x pic"></i>
+                        <else/>
+                            <img src="{$data.sharebg}" class="sharebg pic" alt="分类图标">
+                        </if>
+                    </div>
+                    <input type="hidden" name="sharebg" value="{$data.sharebg}"/>
+                </li>
+                <li>
+                    <label>二维码X住轴：</label>
+                    <input type="text" name="erweima_x" value="{$data['erweima_x']}" placeholder="请输入二维码X住轴">
+                </li>
+                <li>
+                    <label>二维码Y住轴：</label>
+                    <input type="text" name="erweima_y" value="{$data['erweima_y']}" placeholder="请输入二维码Y住轴">
+                </li>
+                <li>
+                    <label>头像X住轴：</label>
+                    <input type="text" name="head_x" value="{$data['head_x']}" placeholder="请输入头像X住轴">
+                </li>
+                <li>
+                    <label>头像Y住轴：</label>
+                    <input type="text" name="head_y" value="{$data['head_y']}" placeholder="请输入头像Y住轴">
+                </li>
+                <li>
+                    <label>昵称X住轴：</label>
+                    <input type="text" name="nick_x" value="{$data['nick_x']}" placeholder="请输入头像X住轴">
+                </li>
+                <li>
+                    <label>昵称Y住轴：</label>
+                    <input type="text" name="nick_y" value="{$data['nick_y']}" placeholder="请输入头像Y住轴">
+                </li>
+                <li>
+                    <label>昵称颜色：</label>
+                    <input type="text" name="nick_color" value="{$data['nick_color']}" placeholder="请输入用户昵称颜色，英文或者RGB颜色">
+                </li>
+            </ul>
+            <div class="probtn_box clearfix">
+                <input type="submit" value="确认提交" class="btn btn_truck"/>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="__PLUG__/plupload/plupload.full.min.js"></script>
+<script type="text/javascript">
+    var sharebg = new plupload.Uploader({   //创建实例的构造方法
+        runtimes: 'gears,html5,html4,silverlight,flash',  //上传插件初始化选用那种方式的优先级顺序
+        browse_button: ['sharebg'],   // 上传按钮
+        url: "{:U('Common/uploadsImg',array('path'=>share))}",   //远程上传地址
+        filters: {
+            max_file_size: '300kb',  //最大上传文件大小（格式100b, 10kb, 10mb, 1gb）
+            mime_types: [           //允许文件上传类型
+                {title: "files", extensions: "jpg,png,gif,jpeg"}
+            ]
+        },
+        multi_selection: false,     //true:ctrl多文件上传, false 单文件上传
+        init: {
+            FilesAdded: function(up, files) {  //文件上传前
+                layer.load(0, {shade: [0.3,'#000']});
+                var path = "{$data.sharebg}";
+                if(path){
+                    $.ajax({
+                        url:"{:U('Ajax/delpic')}",
+                        type:"post",
+                        data:"path="+path
+                    });
+                }
+                sharebg.start();
+            },
+            UploadProgress: function(up, file) {   //上传中，显示进度条
+                var percent = file.percent;
+            },
+            FileUploaded: function(up, file, info) {    //文件上传成功的时候触发
+                var data = eval("(" + info.response + ")");   //解析返回的json数据
+                $("#sharebg").find('*').remove();
+                $("#sharebg").append("<img src='"+data.pic+"' class='sharebg pic'/>");
+                $('input[name=sharebg]').val(data.pic);
+                 layer.closeAll();
+            },
+            Error: function(up, err) {  //上传出错的时候触发
+                layer.closeAll();
+                alert(err.message);
+            }
+        }
+    });
+    sharebg.init();
+</script>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      head_x: {
+		        required:true,
+                number:true,
+		      },
+              head_y: {
+                required:true,
+                number:true,
+              },
+              nick_x: {
+                required:true,
+                number:true,
+              },
+              nick_y: {
+                required:true,
+                number:true,
+              },
+		      erweima_x: {
+		        required: true,
+                number:true,
+		      },
+              erweima_y: {
+                required: true,
+                number:true
+              },
+              nick_color: {
+                required: true,
+              }
+		    },
+		    messages: {
+		      head_x: {
+                required:"头像X住轴不能为空",
+                number:"必须你是数字、支持小数后两位",
+              },
+              head_y: {
+                required:"头像Y住轴不能为空",
+                number:"必须你是数字、支持小数后两位",
+              },
+              nick_x: {
+                required:"用户昵称X住轴不能为空",
+                number:"必须你是数字、支持小数后两位",
+              },
+              nick_y: {
+                required:"用户昵称Y住轴不能为空",
+                number:"必须你是数字、支持小数后两位",
+              },
+              erweima_x: {
+                required: "二维码X住轴不能为空",
+                number:"必须你是数字、支持小数后两位",
+              },
+              erweima_y: {
+                required: "二维码Y住轴不能为空",
+                number:"必须你是数字、支持小数后两位"
+              },
+              nick_color: {
+                required: "用户昵称颜色不能为空",
+              }
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

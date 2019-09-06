@@ -1,0 +1,23 @@
+[ 2019-05-17T10:56:24+08:00 ] 127.0.0.1 /Api/Video/details/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+ERR: 非法操作:details
+
+[ 2019-05-17T10:56:52+08:00 ] 127.0.0.1 /Api/Video/video_details/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0034s ]
+SQL: UPDATE `tbkl_video` SET `look`=look+1 WHERE `id` = null [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+

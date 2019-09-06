@@ -1,0 +1,90 @@
+<include file="Common:header"/>
+<style type="text/css">
+    #address{width: 31.5%}
+    #address>select{width: 33.3%;float: left;}
+</style>
+<js file='__PLUG__/citys/jquery.citys.js'/>
+<div class="main_box">
+    <h2><span></span>收货地址</h2>
+    <div class="cont_box">
+        <form action="{:U('Members/address_editHandle',array('id'=>$data['id'],'order_id'=>$_GET['order_id'],'status'=>$_GET['status']))}" method="post" id="form">
+            <ul class="addpro_box adduser_box">
+                <li>
+                    <label>会员姓名：</label>
+                    <input type="text" placeholder="请输入会员姓名" name="username" value="{$data.username}" />
+                </li>
+                <if condition="$data['allnum']">
+                <li>
+                    <label>购买数量：</label>
+                    <input type="text" placeholder="请输入购买数量" name="allnum" value="{$data.allnum}" />
+                </li>
+                </if>
+                <li>
+                    <label>会员电话：</label>
+                    <input type="text" placeholder="请输入收货人电话" name="userphone" value="{$data.userphone}" />
+                </li>
+                <li><label>省市区：</label>
+                    <div id="address">
+                        <select name="province"></select>
+                        <select name="city"></select>
+                        <select name="area"></select>
+                    </div>
+                    <input type="hidden" name="province" value="{$data['province']}" />
+                    <input type="hidden" name="city" value="{$data['city']}"/>
+                    <input type="hidden" name="area" value="{$data['area']}"/>
+                </li>
+                <li>
+                    <label>地址详情：</label>
+                    <input type="text" placeholder="请输入地址详情，具体到号" name="details" value="{$data.details}" />
+                </li>
+                 <li>
+                    <label>邮政编码：</label>
+                    <input type="text" placeholder="请输入邮编，没有写00000" name="zipcode" value="{$data.zipcode}" />
+                </li>
+            </ul>
+            <div class="probtn_box clearfix">
+                <input type="submit" value="确认提交" class="btn btn_truck"/>
+                <input type="button" value="返回" class="btn btn_info back"/>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    $('#address').citys({
+       valueType:'name',
+       province:'{$data.province}',
+       city:'{$data.city}',
+       area:'{$data.area}',
+       onChange:function(data){
+            var text = data['direct']?'(直辖市)':'';
+            $("input[name=province]").val(data['province']);
+            $("input[name=city]").val(data['city']);
+            $("input[name=area]").val(data['area']);
+        }
+     });
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      username: {
+		        required: true,
+		        minlength: 1
+		      },
+              userphone: {
+                required: true,
+                minlength: 1
+              }
+		    },
+		    messages: {
+		      username: {
+		        required: "收货人姓名不能为空",
+		        minlength: "描述长度不能小于 1 个字符",
+		      },
+              userphone: {
+                required: "收货人电话不能为空",
+                minlength: "长度不能小于 1 个字符",
+              }
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

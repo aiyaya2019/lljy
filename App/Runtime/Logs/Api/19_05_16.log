@@ -1,0 +1,41 @@
+[ 2019-05-16T16:05:01+08:00 ] 127.0.0.1 /api/video/video_details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0040s ]
+SQL: UPDATE `tbkl_video` SET `look`=look+1 WHERE `id` = 22 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2019-05-16T16:05:06+08:00 ] 127.0.0.1 /api/video/video_details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0031s ]
+SQL: UPDATE `tbkl_video` SET `look`=look+1 WHERE `id` = 22 [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2019-05-16T16:08:23+08:00 ] 127.0.0.1 /api/video/video_details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0038s ]
+SQL: UPDATE `tbkl_video` SET `look`=look+1 WHERE `id` = 15 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tbkl_video` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tbkl_collect` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tbkl_collect` WHERE `video_id` = 15 AND `members_id` = 1  [ RunTime:0.0001s ]
+

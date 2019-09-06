@@ -1,0 +1,45 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>{$data.nickname|base64_decode}</h2>
+	<div class="cont_box">
+        <form action="{:U('Members/editHandle',array('id'=>$data['id']))}" method="post" id="form">
+		    <ul class="addpro_box adduser_box">
+				<li>
+					<label>头像：</label>
+					<img src="{$data.headimgurl}" class="listimg"/>
+				</li>
+				<li>
+					<label>会员姓名：</label>
+					<input type="text" value="{$data.username}" name="username" />
+				</li>
+				<li>
+					<label>会员电话：</label>
+					<input type="text" value="{$data.userphone}" name="userphone" />
+				</li>
+				<li>
+					<label>昵称：</label>
+					<input type="text" value="{$data.nickname|base64_decode}" disabled/>
+				</li>
+				<li>
+					<label>性别：</label>
+					<if condition="$data['sex'] ==1">
+						<input type="text" value="男" disabled/>
+					<elseif condition="$data['sex'] ==2"/>
+						<input type="text" value="女" disabled/>
+					<else/>
+						<input type="text" value="未知" disabled/>
+					</if>
+				</li>
+				<li>
+					<label>创建时间：</label>
+					<input type="text" value="{$data.create_time|date='Y-m-d h:i:s',###}" disabled/>
+				</li>
+			</ul>
+			<div class="probtn_box clearfix">
+			    <input type="submit" value="确认提交" class="btn btn_truck"/>
+				<input type="button" value="返回" class="btn btn_info" onclick="javascript:history.back()" />
+			</div>
+		</form>
+	</div>
+</div>
+<include file="Common:footer"/>

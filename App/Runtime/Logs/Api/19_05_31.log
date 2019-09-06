@@ -1,0 +1,38 @@
+[ 2019-05-31T16:46:35+08:00 ] 127.0.0.1 /api/banner/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0031s ]
+SQL: SELECT `id`,`name`,`pic`,`url` FROM `tbkl_banner` WHERE `place` = 1 AND `status` = 1 ORDER BY sort asc LIMIT 5   [ RunTime:0.0002s ]
+
+[ 2019-05-31T16:46:47+08:00 ] 127.0.0.1 /api/banner/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`name`,`pic`,`url` FROM `tbkl_banner` WHERE `place` = 1 AND `status` = 1 ORDER BY sort asc LIMIT 5   [ RunTime:0.0002s ]
+
+[ 2019-05-31T16:54:07+08:00 ] 127.0.0.1 /api/banner/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
+[ 2019-05-31T16:54:14+08:00 ] 127.0.0.1 /api/banner/banner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0032s ]
+SQL: SELECT `id`,`name`,`pic`,`url` FROM `tbkl_banner` WHERE `place` = 1 AND `status` = 1 ORDER BY sort asc LIMIT 5   [ RunTime:0.0002s ]
+

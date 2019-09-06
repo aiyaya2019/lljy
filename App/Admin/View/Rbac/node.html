@@ -1,0 +1,39 @@
+<include file="Common:header"/>
+<script type="text/javascript">
+	$(function(){
+		 $('.del').click(function(){
+	 	  if(confirm('您确认要删除吗？')){
+	 		return true;
+	 	   }
+	 		return false;
+	   });
+	})
+</script>
+<div id='wrap'>
+	<a href="{:U('Rbac/node_edit')}" class="add-app">添加应用</a>
+	<foreach name="data" item="app">
+		<div class="app">
+			<p>
+				<strong>{$app.title}</strong>
+				[<a href="{:U('Rbac/node_edit',array('pid'=>$app['id'],'level'=>2))}">添加控制器</a>]
+				[<a href="{:U('Rbac/delNode',array('pid'=>$app['id'],'level'=>2))}" class="del">删除</a>]
+			</p>
+			<foreach name='app.child' item='action'>
+				<dl>
+					<dt>
+						<strong>{$action.title}</strong>
+						[<a href="{:U('Rbac/node_edit',array('pid'=>$action['id'],'level'=>3))}">添加方法</a>]
+						[<a href="{:U('Rbac/delNode',array('pid'=>$action['id'],'level'=>3))}" class="del">删除</a>]
+					</dt>
+					<foreach name='action.child' item='method'>
+							<dd>
+								<span>{$method.title}</span>
+								[<a href="{:U('Rbac/delNode',array('pid'=>$method['id']))}" class="del">删除</a>]
+							</dd>
+					</foreach>
+				</dl>
+			</foreach>
+		</div>
+	</foreach>
+</div>
+<include file="Common:footer"/>

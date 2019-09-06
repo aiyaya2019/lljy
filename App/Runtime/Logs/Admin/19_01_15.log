@@ -1,0 +1,2073 @@
+[ 2019-01-15T11:38:02+08:00 ] 61.140.238.50 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-01-15T11:38:02+08:00 ] 61.140.238.50 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:02+08:00 ] 61.140.238.50 /Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:07+08:00 ] 61.140.238.50 /Admin/Login/loginHandel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_admin` WHERE `name` = 'kaili' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: lock E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\LoginController.class.php 第 33 行.
+
+[ 2019-01-15T11:38:10+08:00 ] 61.140.238.50 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:10+08:00 ] 61.140.238.50 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select count(*) as num from tbkl_mall_order where status in(1,2,3,4) group by members_id [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `pay_time` BETWEEN '1547481600' AND '1547609890' AND `status` IN ('1','2','3','4') GROUP BY members_id  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:14+08:00 ] 61.140.238.50 /Admin/Mall/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\MallController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_brand` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\MallController.class.php 第 174 行.
+SQL: SELECT * FROM `tbkl_brand` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\19d57cc5c295042e02c385d40743c8b9.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:17+08:00 ] 61.140.238.50 /Admin/Mall/goods_label.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_label` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_label` ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\2c58bd8cefbc7cea74c3d1c5663db2ee.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:18+08:00 ] 61.140.238.50 /Admin/Mall/goods_cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:21+08:00 ] 61.140.238.50 /Admin/Custom/banner/place/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\76f0fa28272aad4c5aa02498742bf6f5.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:22+08:00 ] 61.140.238.50 /Admin/Custom/top_nav/place/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `place` = 1 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:38:27+08:00 ] 61.140.238.50 /Admin/Custom/top_nav_edit/id/3/place/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_top_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_top_nav` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant mall_nav - assumed 'mall_nav' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\1d0b1269cccdc5730195ef2991940190.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:46:06+08:00 ] 61.140.238.50 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2019-01-15T11:46:06+08:00 ] 61.140.238.50 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select count(*) as num from tbkl_mall_order where status in(1,2,3,4) group by members_id [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `pay_time` BETWEEN '1547481600' AND '1547610366' AND `status` IN ('1','2','3','4') GROUP BY members_id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:46:08+08:00 ] 61.140.238.50 /Admin/Custom/banner/place/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\76f0fa28272aad4c5aa02498742bf6f5.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:54:39+08:00 ] 61.140.238.50 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:54:40+08:00 ] 61.140.238.50 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select count(*) as num from tbkl_mall_order where status in(1,2,3,4) group by members_id [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `pay_time` BETWEEN '1547481600' AND '1547610880' AND `status` IN ('1','2','3','4') GROUP BY members_id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T11:55:06+08:00 ] 61.140.238.50 /Admin/Custom/banner/place/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `place` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\76f0fa28272aad4c5aa02498742bf6f5.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:15:28+08:00 ] 61.140.238.50 /Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-01-15T14:15:28+08:00 ] 61.140.238.50 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:15:28+08:00 ] 61.140.238.50 /Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:15:37+08:00 ] 61.140.238.50 /Admin/Login/loginHandel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_admin` WHERE `name` = 'kaili' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: lock E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\LoginController.class.php 第 33 行.
+
+[ 2019-01-15T14:15:39+08:00 ] 61.140.238.50 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:15:39+08:00 ] 61.140.238.50 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select count(*) as num from tbkl_mall_order where status in(1,2,3,4) group by members_id [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `pay_time` BETWEEN '1547481600' AND '1547619339' AND `status` IN ('1','2','3','4') GROUP BY members_id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:15:40+08:00 ] 61.140.238.50 /Admin/Mall/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\MallController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_brand` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\MallController.class.php 第 174 行.
+SQL: SELECT * FROM `tbkl_brand` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\19d57cc5c295042e02c385d40743c8b9.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:15:42+08:00 ] 61.140.238.50 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:15:42+08:00 ] 61.140.238.50 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select count(*) as num from tbkl_mall_order where status in(1,2,3,4) group by members_id [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `pay_time` BETWEEN '1547481600' AND '1547619342' AND `status` IN ('1','2','3','4') GROUP BY members_id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:16:00+08:00 ] 61.140.238.50 /Admin/Mall/brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\MallController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `tbkl_brand` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_brand` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\MallController.class.php 第 174 行.
+SQL: SELECT * FROM `tbkl_brand` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\19d57cc5c295042e02c385d40743c8b9.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:16:03+08:00 ] 61.140.238.50 /Admin/Mall/goods_cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_goods_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_goods_cate` ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 48 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 65 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 84 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 101 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+NOTIC: [8] Undefined index: html E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 117 行.
+NOTIC: [8] Undefined index: level E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\a8666d4d34a221e870629bd6edfa9be3.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:16:04+08:00 ] 61.140.238.50 /Admin/Mall/goods_label.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_label` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_label` ORDER BY id DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\2c58bd8cefbc7cea74c3d1c5663db2ee.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:16:05+08:00 ] 61.140.238.50 /Admin/Mall/order/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_logistics` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order_reminder` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='24' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='23' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='22' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='21' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='20' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='19' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='18' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='17' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='16' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='15' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='24' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='23' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='22' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='21' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='20' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='19' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='18' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='17' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='16' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='15' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='14' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='13' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_members` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: logistics_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `tbkl_logistics` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order_reminder` WHERE ( 1=1 AND mall_order_id='11' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: is_valid E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\1e053529729fa55f167775763bff517f.php 第 20 行.
+NOTIC: [8] Undefined index: type E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\1e053529729fa55f167775763bff517f.php 第 25 行.
+NOTIC: [8] Undefined index: type E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\1e053529729fa55f167775763bff517f.php 第 26 行.
+NOTIC: [8] Undefined index: key E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\1e053529729fa55f167775763bff517f.php 第 38 行.
+NOTIC: [8] Undefined index: members_id E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\1e053529729fa55f167775763bff517f.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:16:05+08:00 ] 61.140.238.50 /Admin/Custom/banner/place/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `place` = 2 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\76f0fa28272aad4c5aa02498742bf6f5.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:16:06+08:00 ] 61.140.238.50 /Admin/Custom/banner/place/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `place` = 4 ORDER BY sort DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\76f0fa28272aad4c5aa02498742bf6f5.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:16:06+08:00 ] 61.140.238.50 /Admin/Money/bank_cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\MoneyController.class.php on line 7 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_bank_cate` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_bank_cate` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_bank_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:16:07+08:00 ] 61.140.238.50 /Admin/Money/package.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\MoneyController.class.php on line 80 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_money_package` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_money_package` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_money_package` ORDER BY money asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `money_msg` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:45+08:00 ] 61.140.238.50 /Admin/Base/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-01-15T14:19:45+08:00 ] 61.140.238.50 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:45+08:00 ] 61.140.238.50 /Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:45+08:00 ] 61.140.238.50 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:45+08:00 ] 61.140.238.50 /Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:50+08:00 ] 61.140.238.50 /Admin/Login/loginHandel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_admin` WHERE `name` = 'kaili' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: lock E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\LoginController.class.php 第 33 行.
+
+[ 2019-01-15T14:19:52+08:00 ] 61.140.238.50 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:52+08:00 ] 61.140.238.50 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_mall_order` WHERE `status` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select count(*) as num from tbkl_mall_order where status in(1,2,3,4) group by members_id [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `pay_time` BETWEEN '1547481600' AND '1547619592' AND `status` IN ('1','2','3','4') GROUP BY members_id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_agent` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_agent` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:55+08:00 ] 61.140.238.50 /Admin/Base/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant base - assumed 'base' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\99c83e798043747f7816b95b9b5ec939.php 第 114 行.
+NOTIC: [8] Use of undefined constant base - assumed 'base' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\99c83e798043747f7816b95b9b5ec939.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:56+08:00 ] 61.140.238.50 /Admin/Base/url.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\BaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `tbkl_url` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_url` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\BaseController.class.php 第 40 行.
+SQL: SELECT * FROM `tbkl_url` ORDER BY type DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\914f6d269062d94e0ca026d4d2d14a07.php 第 32 行.
+NOTIC: [8] Undefined index: type E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\914f6d269062d94e0ca026d4d2d14a07.php 第 33 行.
+NOTIC: [8] Undefined index: keywords E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\914f6d269062d94e0ca026d4d2d14a07.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:56+08:00 ] 61.140.238.50 /Admin/Share/share.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\ShareController.class.php on line 7 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_share` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_share` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\ShareController.class.php 第 8 行.
+SQL: SELECT * FROM `tbkl_share` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:57+08:00 ] 61.140.238.50 /Admin/Logistics/logistics.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\LogisticsController.class.php on line 7 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_logistics` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_logistics` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_logistics` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:19:58+08:00 ] 61.140.238.50 /Admin/Logistics/tpl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\LogisticsController.class.php on line 57 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_logistics_tpl` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_logistics_tpl` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_logistics_tpl` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:20:04+08:00 ] 61.140.238.50 /Admin/Logistics/tpl_edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_logistics_tpl` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_logistics_tpl` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:20:12+08:00 ] 61.140.238.50 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\NewsController.class.php on line 7 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:20:14+08:00 ] 61.140.238.50 /Admin/News/edit/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant features - assumed 'features' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\8b404c3a8cc1b6a384374147d3e233ee.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:20:17+08:00 ] 61.140.238.50 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\NewsController.class.php on line 7 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:26:11+08:00 ] 61.140.238.50 /Admin/News/edit/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant features - assumed 'features' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\8b404c3a8cc1b6a384374147d3e233ee.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:42:59+08:00 ] 61.140.238.50 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\NewsController.class.php on line 7 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T14:46:41+08:00 ] 61.140.238.50 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\NewsController.class.php on line 7 and defined E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `tbkl_news` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Admin\Controller\CommonController.class.php 第 181 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T15:09:18+08:00 ] 61.140.238.50 /Admin/Base/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant base - assumed 'base' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\99c83e798043747f7816b95b9b5ec939.php 第 114 行.
+NOTIC: [8] Use of undefined constant base - assumed 'base' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\99c83e798043747f7816b95b9b5ec939.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T15:09:39+08:00 ] 61.140.238.50 /Admin/Base/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0000s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant base - assumed 'base' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\99c83e798043747f7816b95b9b5ec939.php 第 114 行.
+NOTIC: [8] Use of undefined constant base - assumed 'base' E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Runtime\Cache\Admin\99c83e798043747f7816b95b9b5ec939.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T18:30:31+08:00 ] 61.140.238.50 /Admin/Money/package.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tbkl_base` [ RunTime:0.0156s ]
+SQL: SELECT `nopay_valid_time` FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_mall_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_mall_order` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_group_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_group_order` WHERE ( status=0 or status=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tbkl_base` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-01-15T18:30:31+08:00 ] 61.140.238.50 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T18:30:31+08:00 ] 61.140.238.50 /Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T18:30:32+08:00 ] 61.140.238.50 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-01-15T18:30:32+08:00 ] 61.140.238.50 /Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\klwl_web\web_hqt\klshop.kailly.com.cn\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

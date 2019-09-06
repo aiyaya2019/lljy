@@ -1,0 +1,55 @@
+*{padding: 0;margin: 0;list-style: none;}
+a{text-decoration: none;color: #ccc;}
+html, body {
+      position: relative;
+      height: 100%;
+      font-size:37.5px;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 0;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .ell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.elll {
+  		text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+
+.order-top{width: 100%;background: #FFFFFF;}
+.order-top-com{width: 95%;margin: 0 auto;display: flex;justify-content: center;align-items: center;padding:0.4rem 0}
+.order-top-com-r{display: flex;justify-content: space-between;align-items: center;padding-left: 20px;font-size: .4rem;}
+.goodInfo{font-size: .5rem;width: 95%;margin: 0 auto;padding: 15px 0;font-weight: 300;font-size: .45rem;}
+
+.goodInfo-list{display: flex;justify-content: center;padding: 15px 10px;background: #FFFFFF;}
+.goodInfoList{background: #fff;}
+.goodInfoList-list{width: 95%;margin:0 auto;display: flex;align-items: center;font-size: .5rem;padding: 10px 0;border-bottom: 0.02rem solid #f0f0f0;}
+.good-foot{height: 55px;font-size: 0.5rem;position: fixed;bottom: 0;z-index: 999;width: 100%;display: flex;background: #fff;}
+
+.yun{font-size: .4rem;color: #999;line-height: 55px;flex: 1;padding-left: 10px;}
+.pay{width: 30%;background: #125d70;line-height: 55px;text-align: center;color: #fff;}
+
+.delivery{width: 95%;margin: 20px auto 0;display: flex;font-size: .5rem;padding: 10px 0;align-items: center;border-bottom:0.02rem solid #f0f0f0 ;}
+.code{border: none;outline: none;padding: 10px 5px;font-size:.45rem ; }
+
+.popup{width: 100%;height: 100%;background: rgba(0,0,0,.5);position: fixed;top: 0;z-index: 999;display:flex;justify-content: center;align-items: center;}
+.com{width: 90%;height: 150px;background: #fff;border-radius: 10px;position: relative;}
+.bott-btn{position: absolute;bottom: 0;border-top: .02rem solid #f0f0f0;width: 100%;font-size: .5rem;padding: 0.3rem 0;}
+.bott-btn a{display:block;width: 50%;float: left;text-align: center;}
+.goodTitle{flex: 1;font-size: .45rem;padding-left:10px ;width: calc(100% - 110px);position: relative;}
+.num{padding-right: 10px;position: absolute;bottom: 0;right: 0;color: #999;}
+.mode{color: #999;height: 60px;line-height: 30px;}
+.queren{font-size: .5rem;text-align: center;margin-top: 30px;}

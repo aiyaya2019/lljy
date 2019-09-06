@@ -1,0 +1,71 @@
+<include file="Common:header"/>
+<div class="main_box">
+    <h2><span></span>快递添加</h2>
+    <div class="cont_box">
+        <form action="{:U('Logistics/logistics_editHandle',array('id'=>$data['id']))}" method="post" id="form">
+            <ul class="addpro_box adduser_box">
+                <li>
+                    <label>快递名称：</label>
+                    <input type="text" placeholder="请输入快递名称" name="name" value="{$data.name}" />
+                </li>
+                <li>
+                    <label>显示状态：</label>
+                    <if condition="$data['status']">
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="status" value="0" class="input_radio"><span>显示</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="1" class="input_radio" checked="checked"><span>隐藏</span>
+                        </div>
+                    <else/>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-check-circle"></i>
+                            <input type="radio" name="status" value="0" class="input_radio" checked="checked"><span>显示</span>
+                        </div>
+                        <div class="radio_box status">
+                            <i class="fa fa-1x fa-circle-thin"></i>
+                            <input type="radio" name="status" value="1" class="input_radio"><span>隐藏</span>
+                        </div>
+                    </if>
+                </li>
+                <li>
+                    <label>排 序：</label>
+                    <input type="text" placeholder="请输入排序" name="sort" value="{$data.sort|default=0}" />
+                </li>
+            </ul>
+            <div class="probtn_box clearfix">
+                <input type="submit" value="确认提交" class="btn btn_truck"/>
+                <input type="button" value="返回" class="btn btn_info back"/>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      name: {
+		        required: true,
+		        minlength: 2
+		      },
+		      sort: {
+		        required: true,
+		        digits:true
+		      },
+		    },
+		    messages: {
+		      name: {
+		        required: "快递名称不能为空",
+		        minlength: "描述长度不能小于 2个字符",
+		      },
+		      sort: {
+		        required: "排序不能为空",
+		        digits:"必须是正整数"
+		      },
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

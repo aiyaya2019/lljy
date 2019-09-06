@@ -1,0 +1,65 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>发送邮件</h2>
+	<div class="cont_box">
+		<form action="{:U('Tools/email_editHandle')}" method="post" id="form">
+			<ul class="addpro_box adduser_box">
+				<li>
+					<label>收件人姓名：</label>
+					<input type="text" placeholder="请输入收件人姓名" name="name"/>
+				</li>
+				<li>
+					<label>收件人邮箱：</label>
+					<input type="text" placeholder="请输入收件人邮箱" name="send"/>
+				</li>
+				<li><label>邮件标题：</label><input type="text" placeholder="请输入管理员账号" name="title" /></li>
+			    <li><label>邮件内容：</label><textarea name="content" rows="5"></textarea></li>
+			</ul>
+			<div class="probtn_box clearfix">
+				<input type="submit" value="确认提交" class="btn btn_truck"/>
+				<input type="button" value="返回" class="btn btn_info back"/>
+			</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      name: {
+		        required:true,
+		        rangelength:[2,10], //输入字符范围
+		      },
+		      send: {
+		        required: true,
+		        email: true,
+		      },
+		      title: {
+		        required: true,
+		        rangelength:[2,50], //输入字符范围
+		      },
+		      content: {
+		        required: true,
+		      }
+		    },
+		    messages: {
+		      name: {
+		        required: "收件人姓名不能为空",
+		        rangelength:'请输入2-10之间的字符',
+		      },
+		       send: {
+		        required: "收件人邮箱不能为空",
+		        email: "请输入合法的邮箱",
+		      },
+		      title: {
+		        required: "邮件标题不能为空",
+		        rangelength: "邮件长度不能小于[2,50]个字符",
+		      },
+		      content: {
+		        required: "邮件内容不能为空",
+		      },
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

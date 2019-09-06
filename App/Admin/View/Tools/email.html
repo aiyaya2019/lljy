@@ -1,0 +1,100 @@
+<include file="Common:header"/>
+<div class="main_box">
+	<h2><span></span>邮件管理</h2>
+	<div class="search_box clearfix">
+		<label class="f_left">SMPT：</label>
+		<input type="text" class="f_left" name="smpt" value="{$emailconfig.smpt}" placeholder="smtp.189.cn">
+		<label class="f_left">发件人邮箱：</label>
+		<input type="text" class="f_left" name="account" value="{$emailconfig.account}" placeholder="17701959703@189.cn">
+		<label class="f_left">密码：</label>
+		<input type="text" class="f_left" name="pwd" value="{$emailconfig.pwd}" placeholder="extellar419431">
+		<input type="submit" value="确认配置" class="btn blue_btn" id="config">
+		<button type="button" link="{:U('Tools/email_edit')}" onclick="link(this)" class="btn blue_btn">发送邮件</button>
+	</div>
+	<div class="cont_box">
+		<table border="0" cellspacing="0" cellpadding="0" class="table" id="table_box">
+				<tr>
+					<th>ID</th>
+					<th>收件人</th>
+					<th>邮件标题</th>
+					<th>收件人</th>
+					<th>状态</th>
+					<th>发送时间</th>
+					<th>操 作</th>
+				</tr>
+			<if condition="$data">
+				<foreach name='data' item = 'v'>
+					<tr>
+						<td>{$v.id}</td>
+						<td>{$v.send}</td>
+						<td>{$v.title|subtext=20}</td>
+						<td>{$v.name}</td>
+						<td>
+							<if condition="$v['status']">
+							   <a class="table_btn table_grey down_shelf">
+									<i class="fa fa-close"></i>
+									<span field="status" value="1">失败</span>
+								</a>
+							<else/>
+								<a class="table_btn table_warning up_shelf">
+									<i class="fa fa-check"></i>
+									<span field="status" value="0">成功</span>
+								</a>
+							</if>
+						</td>
+						<td>{$v.create_time|date="Y-m-d H:i:s",###}</td>
+						<td>
+							<a href="{:U('Tools/email_search',array('id'=> $v['id']))}" class="table_btn table_edit edit_btn">
+								<i class="fa fa-search"></i>
+								<span>查看</span>
+							</a>
+							<a link="{:U('Tools/email_delete')}" key="{$v.id}" class="table_btn table_del del_btn">
+								<i class="fa fa-trash-o"></i>
+								<span>删除</span>
+							</a>
+						</td>
+					</tr>
+				</foreach>
+			<else/>
+			    <tr class="nocontent">
+					<td colspan="7">世界都清静了...</td>
+				</tr>
+			</if> 
+	    </table>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$('#config').click(function() {
+			var smpt = $('input[name=smpt]').val();
+			var account = $('input[name=account]').val();
+			var pwd = $('input[name=pwd]').val();
+			if(smpt ==''){
+				alert('SMPT不能为空');
+				return;
+			}
+			if(account == ''){
+				alert('发件人邮箱不能为空');
+				return;
+			}
+			if(pwd == ''){
+				alert('邮箱密码不能为空');
+				return;
+			}
+			$.ajax({
+				url:"{:U('Tools/emailConfig')}",
+				type:'post',
+				data:{
+					 smpt: smpt,
+	    			 account: account,
+	    			 pwd:pwd,
+				},
+				success:function(data) {
+					alert('配置成功！！！');
+				}
+			})
+
+		})
+	})
+</script>
+<include file="Common:footer"/>

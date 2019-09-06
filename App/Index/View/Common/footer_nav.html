@@ -1,0 +1,37 @@
+<div class="product-foot-wrap">
+	<div class="product-foot">
+		<div class="product-foot-flx">
+			<div style="padding-top: 8px;">
+				<div class="foot-icom">
+					<if condition="CONTROLLER_NAME eq Index">
+						<a href="{:U('Index/index')}" target="_self">
+							<img src="__IMG__/indexIcom.png" style="width: .56rem;height: .56rem;"/>
+						</a>
+						<a href="{:U('Index/index')}" target="_self" style="color: #417d8d;">首页</a>
+					<else/>
+						<a href="{:U('Index/index')}" target="_self">
+							<img src="__IMG__/indexIcom2.png" style="width: .56rem;height: .56rem;"/>
+						</a>
+						<a href="{:U('Index/index')}" target="_self">首页</a>
+					</if>
+				</div>
+			</div>
+			<div style="padding-top: 5px;">
+				<div class="foot-icom">
+					<if condition="CONTROLLER_NAME eq Me">
+						<a href="{:U('Me/index')}" target="_self">
+							<img src="__IMG__/myIcom.png" style="width: .56rem;height: .56rem;"/>
+						</a>
+						<a href="{:U('Me/index')}" target="_self" style="color: #417d8d;">我的</a>
+					<else/>
+						<a href="{:U('Me/index')}" target="_self">
+							<img src="__IMG__/myIcom2.png" style="width: .56rem;height: .56rem;"/>
+						</a>
+						<a href="{:U('Me/index')}" target="_self">我的</a>
+					</if>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

@@ -1,0 +1,22 @@
+*{padding: 0;margin: 0;list-style: none;}
+html, body {
+      position: relative;
+      height: 100%;
+      font-size:37.5px;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .addCode{
+    	width: 100%;padding: 40px 30px;background: #fff;box-sizing: border-box;
+    }
+    .comm{background: none;border: none;outline: none;}
+	.add-text{text-align: center;padding: 20px 0;}
+	.add-text input{width: 60%;height: 40px;border: .02rem solid #999;font-size: .45rem;text-align: center;margin-top: 40px;}
+	.add-btn{text-align: center;margin-top: 20px;}
+	.add-btn button{background: #125d70;color: #fff;border-radius: 20px;padding: 10px 15px;width: 30%;}
+	input::-webkit-input-placeholder {color: #999;}

@@ -1,0 +1,841 @@
+[ 2019-05-31T08:56:06+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+
+[ 2019-05-31T08:56:06+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2019-05-31T08:56:06+08:00 ] 127.0.0.1 /Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2019-05-31T16:44:28+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+
+[ 2019-05-31T16:44:28+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2019-05-31T16:44:28+08:00 ] 127.0.0.1 /Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2019-05-31T16:44:40+08:00 ] 127.0.0.1 /Admin/Login/loginHandel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `tbkl_admin` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `tbkl_admin` WHERE `name` = 'kaili' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: lock D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\LoginController.class.php 第 33 行.
+
+[ 2019-05-31T16:44:42+08:00 ] 127.0.0.1 /Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2019-05-31T16:44:42+08:00 ] 127.0.0.1 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0221s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `pay_time` BETWEEN '1559232000' AND '1559318399' AND `status` = '1' GROUP BY members_id LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 GROUP BY members_id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0280s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: status3 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 52 行.
+NOTIC: [8] Undefined index: status4 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 63 行.
+NOTIC: [8] Undefined index: status5 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 74 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 131 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2019-05-31T16:44:45+08:00 ] 127.0.0.1 /Admin/Banner/banner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_banner` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 13 行.
+SQL: SELECT * FROM `tbkl_banner` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\721b42c7281d7cb892c56b8f912e60b7.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-05-31T16:44:47+08:00 ] 127.0.0.1 /Admin/Banner/banner_edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Use of undefined constant banner - assumed 'banner' D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-05-31T16:44:51+08:00 ] 127.0.0.1 /Admin/Banner/banner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_banner` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 13 行.
+SQL: SELECT * FROM `tbkl_banner` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\721b42c7281d7cb892c56b8f912e60b7.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2019-05-31T16:44:53+08:00 ] 127.0.0.1 /Admin/Banner/banner_edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant banner - assumed 'banner' D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2019-05-31T16:44:58+08:00 ] 127.0.0.1 /Admin/Video/video_cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `tbkl_video_cate` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_video_cate` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 104 行.
+SQL: SELECT * FROM `tbkl_video_cate` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\190f24d424d0691a0ef8f892be3cae37.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2019-05-31T16:45:03+08:00 ] 127.0.0.1 /Admin/Video/video.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_video` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 22 行.
+SQL: SELECT * FROM `tbkl_video` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `tbkl_video_cate` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`name` FROM `tbkl_video_cate` WHERE `status` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\61c1c84e20dcfecf88a2244e0a65608e.php 第 28 行.
+NOTIC: [8] Undefined index: html D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\61c1c84e20dcfecf88a2244e0a65608e.php 第 28 行.
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\61c1c84e20dcfecf88a2244e0a65608e.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2019-05-31T16:45:11+08:00 ] 127.0.0.1 /Admin/Banner/banner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_banner` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 13 行.
+SQL: SELECT * FROM `tbkl_banner` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\721b42c7281d7cb892c56b8f912e60b7.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2019-05-31T16:45:12+08:00 ] 127.0.0.1 /Admin/Banner/banner_edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tbkl_banner` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Use of undefined constant banner - assumed 'banner' D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2019-05-31T16:45:14+08:00 ] 127.0.0.1 /Admin/Banner/banner_edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0049s ]
+SQL: UPDATE `tbkl_banner` SET `name`='轮播图名称',`url`='pages/index/info/info?id=16',`pic`='/Uploads/Admin/banner/155805913266277.jpg',`status`='1',`sort`='0',`update_time`='1559292314' WHERE `id` = 1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2019-05-31T16:45:15+08:00 ] 127.0.0.1 /Admin/Banner/banner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_banner` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 13 行.
+SQL: SELECT * FROM `tbkl_banner` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\721b42c7281d7cb892c56b8f912e60b7.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2019-05-31T16:45:18+08:00 ] 127.0.0.1 /Admin/Banner/banner_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 22 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 26 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 30 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 35 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 39 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 43 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 73 行.
+NOTIC: [8] Use of undefined constant banner - assumed 'banner' D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 88 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\c5e67ef2d3cf19b207c36dd80f1e0915.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2019-05-31T16:46:00+08:00 ] 127.0.0.1 /Admin/Banner/banner_edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0040s ]
+SQL: INSERT INTO `tbkl_banner` (`name`,`url`,`pic`,`status`,`sort`,`create_time`) VALUES ('轮播图名称2','/pages/my/register/register','','1','0','1559292360') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2019-05-31T16:46:01+08:00 ] 127.0.0.1 /Admin/Banner/banner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tbkl_banner` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_banner` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\BannerController.class.php 第 13 行.
+SQL: SELECT * FROM `tbkl_banner` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\721b42c7281d7cb892c56b8f912e60b7.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2019-05-31T17:10:59+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2019-05-31T17:10:59+08:00 ] 127.0.0.1 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `pay_time` BETWEEN '1559232000' AND '1559318399' AND `status` = '1' GROUP BY members_id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 GROUP BY members_id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: status3 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 52 行.
+NOTIC: [8] Undefined index: status4 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 63 行.
+NOTIC: [8] Undefined index: status5 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 74 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 131 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2019-05-31T17:11:01+08:00 ] 127.0.0.1 /Admin/Video/video_cate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 103 行.
+SQL: SHOW COLUMNS FROM `tbkl_video_cate` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_video_cate` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 104 行.
+SQL: SELECT * FROM `tbkl_video_cate` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\190f24d424d0691a0ef8f892be3cae37.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2019-05-31T17:11:01+08:00 ] 127.0.0.1 /Admin/Video/video.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tbkl_video` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tbkl_video` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: where D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 22 行.
+SQL: SELECT * FROM `tbkl_video` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tbkl_video_cate` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`name` FROM `tbkl_video_cate` WHERE `status` = 1  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Admin\Controller\VideoController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: cate_id D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\61c1c84e20dcfecf88a2244e0a65608e.php 第 28 行.
+NOTIC: [8] Undefined index: html D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\61c1c84e20dcfecf88a2244e0a65608e.php 第 28 行.
+NOTIC: [8] Undefined index: keywords D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\61c1c84e20dcfecf88a2244e0a65608e.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2019-05-31T17:20:00+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2019-05-31T17:20:00+08:00 ] 127.0.0.1 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `pay_time` BETWEEN '1559232000' AND '1559318399' AND `status` = '1' GROUP BY members_id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 GROUP BY members_id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: status3 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 52 行.
+NOTIC: [8] Undefined index: status4 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 63 行.
+NOTIC: [8] Undefined index: status5 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 74 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 131 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-05-31T17:20:00+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-05-31T17:20:00+08:00 ] 127.0.0.1 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `pay_time` BETWEEN '1559232000' AND '1559318399' AND `status` = '1' GROUP BY members_id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 GROUP BY members_id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: status3 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 52 行.
+NOTIC: [8] Undefined index: status4 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 63 行.
+NOTIC: [8] Undefined index: status5 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 74 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 131 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2019-05-31T17:20:01+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-05-31T17:20:01+08:00 ] 127.0.0.1 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `pay_time` BETWEEN '1559232000' AND '1559318399' AND `status` = '1' GROUP BY members_id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 GROUP BY members_id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: status3 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 52 行.
+NOTIC: [8] Undefined index: status4 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 63 行.
+NOTIC: [8] Undefined index: status5 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 74 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 131 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-05-31T17:20:01+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2019-05-31T17:20:01+08:00 ] 127.0.0.1 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `pay_time` BETWEEN '1559232000' AND '1559318399' AND `status` = '1' GROUP BY members_id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 GROUP BY members_id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: status3 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 52 行.
+NOTIC: [8] Undefined index: status4 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 63 行.
+NOTIC: [8] Undefined index: status5 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 74 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 131 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2019-05-31T17:20:01+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2019-05-31T17:20:01+08:00 ] 127.0.0.1 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `tbkl_order` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `pay_time` BETWEEN '1559232000' AND '1559318399' AND `status` = '1' GROUP BY members_id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_order` WHERE `status` = 1 GROUP BY members_id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tbkl_members` [ RunTime:0.0033s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `tbkl_members` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: status3 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 52 行.
+NOTIC: [8] Undefined index: status4 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 63 行.
+NOTIC: [8] Undefined index: status5 D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 74 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 131 行.
+NOTIC: [8] Undefined index: agent D:\phpStudy\PHPTutorial\WWW\lljy.kailly.com\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Sorry出错了</title>
+    <link rel="stylesheet" href="/App/Modules/Admin/Tpl/Public/css/common/style.css"/>  <!-- index页面所用 -->
+    <script type="text/javascript" src="/App/Modules/Admin/Tpl/Public/js/common/jquery.min.js"></script>
+    <script language="javascript">
+        $(function(){
+            $('.error404').css({'position':'absolute','left':($(window).width()-490)/2});
+            $(window).resize(function(){  
+                $('.error404').css({'position':'absolute','left':($(window).width()-490)/2});
+            })  
+        });  
+    </script> 
+    <style type="text/css">
+        .reindex{cursor: pointer; }
+    </style>
+</head>
+<body style="background:#edf6fa;">
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">404错误提示</a></li>
+        </ul>
+    </div>
+    <div class="error404"> 
+        <h2>非常遗憾，您访问的页面不存在！</h2>
+        <p>错误信息：<?php echo $e['message']; ?></p>
+        <div class="reindex"><a onclick="window.history.back(-1);" target="_parent">返回首页</a></div>   
+    </div>
+</body>
+
+</html>
+

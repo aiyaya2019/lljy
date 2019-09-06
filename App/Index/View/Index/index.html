@@ -1,0 +1,50 @@
+<include file="Common:header"/>
+
+<link rel="stylesheet" href="/Public/lib/swiper-4.5.0/dist/css/swiper.min.css">
+<link rel="stylesheet" href="__CSS__/index.css" />
+		
+<div class="wrap">
+	<!--轮播-->
+	<include file="Common:banner"/>
+	<!--公告-->
+	<div class="notice-wrap">
+		<div class="not-title">公告</div>
+		<div class="not-con-wrap">
+			<div class="not-con">
+				<img src="__IMG__/notice-icom.png" style=""/>
+				<foreach name="notice" item="v">
+					<p style="color: #999;">
+						<a style="color: #999;" href="{:U('Index/noticeInfo', ['id' => $v['id']])}"><marquee>{$v.title}</marquee></a>
+					</p>
+				</foreach>
+			</div>
+		</div>
+	</div>
+	<!--产品需求-->
+	<div class="product-wrap">
+		<div class="product-title">产品中心</div>
+		<div class="product-img">
+			<a href="{:U('Tips/index')}" target="_self" style="text-decoration: underline;">点击查看领取规则和方式</a>
+		</div>
+	</div>
+
+	<div class="product-list-wrap" style="margin-bottom:1rem;">
+		<ul class="product-list-ul clear">
+			<foreach name="number" item="v">
+				<li class="product-list-li" >
+					<a href="{:U('Product/index', ['num_id' => $v['id']])}" target="_self">
+						<img src="{$v.pic}" style="width: 125px;height: 125px;"/>
+					</a>
+					<a href="{:U('Product/index', ['num_id' => $v['id']])}" target="_self" style="color: #fff !important;"><p class="product-btn">{$v.num}次领取</p></a>
+				</li>
+			</foreach>
+		</ul>
+	</div>
+	<!--底部-->
+	<include file="Common:footer_nav"/>
+</div>
+
+<!-- 底部包含 -->
+<include file="Common:footer"/>
+<!-- 分享包含 -->
+<include file="Common:share"/>
